@@ -1,0 +1,103 @@
+<head>
+    <title>PROJEKT</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="slider">
+        <div id="tooplate_wrapper">
+            <div id="tooplate_sidebar">
+
+                <div id="header" class="mainHeader">
+                    <h1>Märkmik</h1>
+                </div>    
+
+                <div id="menu">
+                    <ul class="navigation">
+                        <li><a href="#home" class="selected menu_01">Kalender</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            {{> content}}
+
+        </div>
+
+
+    </div>  
+</body>
+
+<template name="content">
+    <div id="content">
+        <div class="panel" id="home">
+
+            {{#if ifDayviewTrue}}
+            {{> Dayview}}
+            {{else}}  
+            {{> CalendarTemplate}}
+            {{/if}}  
+
+        </div>
+    </div>
+</template>
+
+
+<template name="CalendarTemplate">
+    <div class="calendar"></div>
+</template>
+
+<template name="Dayview">
+
+    <div class="addNewLecture">
+        <table>
+            <tr>
+                <td>
+                    <h1 class="TakeDay">{{selectedDay}}</h1>
+                </td>
+                <td>
+                    <button id="addNewLecture" class="fa fa-plus"></button>
+                </td>
+            </tr>
+        </table>  
+    </div>
+
+    <br>
+
+    <div>
+        {{#each lectures}}
+        {{> lecture}}
+        {{/each}}
+    </div>
+
+    <table id="addNewLectureInput">
+        <tr>
+            <td><input type="text" id="beginTime" class="timeInput" placeholder="--:--"></td>
+            <td><input type="text" id="endTime" class="timeInput" placeholder="--:--"></td> 
+            <td><input type="text" id="lectureName" class="lecture" ></td>
+            <td><button id="saveButton" class="fa fa-check check"></button></td>
+        </tr>
+    </table>
+
+    <div class="footer">
+
+        <button id="backButton" class="fa fa-arrow-left"></button>
+    </div>  
+
+</template>
+
+<template name="lecture">
+    <div>
+        <table class="lecturesTable">
+            <tr >
+                <td style="width: 70px;">{{begintime}}</td>
+                <td style="width: 70px;">{{endtime}}</td> 
+                <td style="width: 200px;">{{lecturename}}</td>
+            </tr>
+        </table>
+    </div>
+</template>
+
