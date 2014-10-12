@@ -196,6 +196,9 @@ table.lecturesTable td {
 #saveButton {
 	float:left;
 }
+#closeButton{
+    float:left;
+}
 #backButton {
 	float: left;
         width:30px;

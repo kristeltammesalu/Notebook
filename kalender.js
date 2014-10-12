@@ -59,7 +59,7 @@ if (Meteor.isClient) {
 
 
             if ($.trim($('#beginTime').val()) == '' || $.trim($('#endTime').val()) == '' || $.trim($('#lectureName').val()) == '') {
-                $('#addNewLectureInput').hide();
+                alert("Palun sisesta kõik väljad!");
             } else if (!rex.test(beginTime) || !rex.test(endTime)) {
                 alert("Vale formaat");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
@@ -75,7 +75,6 @@ if (Meteor.isClient) {
         'click #addNewLecture': function () {
 
             $('#addNewLectureInput').show();
-            
             console.dir("midagi ei juhtu");
 
 
@@ -84,6 +83,13 @@ if (Meteor.isClient) {
             Session.set('adding_task', false);
             console.dir(Session.get('adding_task'));
 
+        },
+        'click #closeButton': function () {
+                $('#addNewLectureInput').hide();
+                $('#beginTime').val('');
+                $('#endTime').val('');
+                $('#lectureName').val('');
+                
         }
     });
 }
