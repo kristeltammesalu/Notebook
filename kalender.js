@@ -81,11 +81,14 @@ if (Meteor.isClient) {
 
                 $('#addNewLectureInput').hide();
             }
+           
 
 
         },
         'click #addNewLecture': function () {
-
+               $('#beginTime').val('');
+                $('#endTime').val('');
+                $('#lectureName').val('');
             $('#addNewLectureInput').show();
             console.dir("midagi ei juhtu");
 
