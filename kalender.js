@@ -13,9 +13,9 @@ if (Meteor.isClient) {
                 // change the day's background color just for fun
                 //$('.calendar').hide();
 
-                Session.set('adding_task', true);
+                //alert(Template.Dayview.countLectures());
 
-                console.dir(Session.get('adding_task'));
+                Session.set('adding_task', true);
 
                 Session.set('selectedDate', date.format("D.M.YYYY"));
 
@@ -40,11 +40,21 @@ if (Meteor.isClient) {
 
     };
 
+    //ask all lectures and sort by begintime
     Template.Dayview.lectures = function () {
         var selectedDate = Session.get('selectedDate');
 
         return Lectures.find({lecturedate: selectedDate}, {sort: {begintime: 1}});
     };
+
+    Template.Dayview.countLectures = function () {
+        var selectedDate = Session.get('selectedDate');
+
+        var countLectures = Lectures.find({lecturedate: selectedDate}, {sort: {begintime: 1}}).count();
+
+        return countLectures;
+    };
+
 
     Template.Dayview.events({
         'click #saveButton': function (evt, tmpl) {
@@ -64,6 +74,8 @@ if (Meteor.isClient) {
                 alert("Vale formaat");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
                 alert("loll loom");
+            } else if(Template.Dayview.countLectures() > 15){
+               alert("Rohkem tunde ei saa lisada!");
             } else {
                 Lectures.insert({lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
 
