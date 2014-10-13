@@ -8,4 +8,9 @@ autopublish
 insecure
 jquery
 rzymek:fullcalendar
+sanjo:jasmine
+velocity:html-reporter
+sacha:spin
+ian:bootstrap-3
+ian:accounts-ui-bootstrap-3
 
