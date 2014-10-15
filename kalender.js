@@ -3,19 +3,15 @@ Lectures = new Mongo.Collection("lectures");
 if (Meteor.isClient) {
 
     Session.set('selectedDate', "");
-    Session.set('adding_task', false);
+    Session.set('dayView', false);
 
     Template.CalendarTemplate.rendered = function () {
         this.$('.calendar').fullCalendar({
             dayClick: function (date, jsEvent, view) {
 
-
-                // change the day's background color just for fun
-                //$('.calendar').hide();
-
                 //alert(Template.Dayview.countLectures());
 
-                Session.set('adding_task', true);
+                Session.set('dayView', true);
 
                 Session.set('selectedDate', date.format("D.M.YYYY"));
 
@@ -26,11 +22,9 @@ if (Meteor.isClient) {
 
     Template.content.ifDayviewTrue = function () {
 
-        if (Session.equals('adding_task', true)) {
+        if (Session.equals('dayView', true)) {
             return Session.get('selectedDate');
         }
-
-
         return;
     }
 
@@ -80,35 +74,34 @@ if (Meteor.isClient) {
             if ($.trim(beginTime) == '' || $.trim(endTime) == '' || $.trim(lectureName) == '') {
                 alert("Palun sisesta kõik väljad!");
             } else if (!rex.test(beginTime) || !rex.test(endTime)) {
-                alert("Vale formaat");
+                alert("Vale formaat!");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
                 alert("Algusaeg peab olema väiksem lõpuajast!");
             } else if(Template.Dayview.countLectures() > 15){
                alert("Rohkem tunde ei saa lisada!");
             } else {
+                //If all conditions completed, then clicking saveButton will add lecture in colletion
                 Lectures.insert({lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
 
                 $('#addNewLectureInput').hide();
             }
-           
-
 
         },
         'click #addNewLecture': function () {
               Template.Dayview.inputSetEmpty();
             $('#addNewLectureInput').show();
-            console.dir("midagi ei juhtu");
+            //console.dir("midagi ei juhtu");
 
 
         },
         'click #backButton': function () {
-            Session.set('adding_task', false);
-            console.dir(Session.get('adding_task'));
+            Session.set('dayView', false);
+            //console.dir(Session.get('adding_task'));
 
         },
         'click #closeButton': function () {
-                $('#addNewLectureInput').hide();
-               Template.Dayview.inputSetEmpty();
+            $('#addNewLectureInput').hide();
+           Template.Dayview.inputSetEmpty();
                 
         }
     });
