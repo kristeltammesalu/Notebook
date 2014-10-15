@@ -54,6 +54,15 @@ if (Meteor.isClient) {
 
         return countLectures;
     };
+    
+    //Clears inputs' values
+    Template.Dayview.inputSetEmpty = function () {
+        var beginTimeEmpty = $('#beginTime').val('');
+        var endTimeEmpty = $('#endTime').val('');
+        var lectureNameEmpty = $('#lectureName').val('');
+
+        return beginTimeEmpty, endTimeEmpty, lectureNameEmpty;
+    };
 
 
     Template.Dayview.events({
@@ -65,15 +74,15 @@ if (Meteor.isClient) {
             var beginTime = tmpl.find("#beginTime").value;
             var endTime = tmpl.find("#endTime").value;
             var lectureName = tmpl.find("#lectureName").value;
-            var rex = /^([0-1][0-9]|[2][0-3]|[0-9]):([0-5][0-9])$/;
+            var rex = /^([0-1][0-9]|[2][0-3]):([0-5][0-9])$/;
 
 
-            if ($.trim($('#beginTime').val()) == '' || $.trim($('#endTime').val()) == '' || $.trim($('#lectureName').val()) == '') {
+            if ($.trim(beginTime) == '' || $.trim(endTime) == '' || $.trim(lectureName) == '') {
                 alert("Palun sisesta kõik väljad!");
             } else if (!rex.test(beginTime) || !rex.test(endTime)) {
                 alert("Vale formaat");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
-                alert("loll loom");
+                alert("Algusaeg peab olema väiksem lõpuajast!");
             } else if(Template.Dayview.countLectures() > 15){
                alert("Rohkem tunde ei saa lisada!");
             } else {
@@ -86,9 +95,7 @@ if (Meteor.isClient) {
 
         },
         'click #addNewLecture': function () {
-               $('#beginTime').val('');
-                $('#endTime').val('');
-                $('#lectureName').val('');
+              Template.Dayview.inputSetEmpty();
             $('#addNewLectureInput').show();
             console.dir("midagi ei juhtu");
 
@@ -101,9 +108,7 @@ if (Meteor.isClient) {
         },
         'click #closeButton': function () {
                 $('#addNewLectureInput').hide();
-                $('#beginTime').val('');
-                $('#endTime').val('');
-                $('#lectureName').val('');
+               Template.Dayview.inputSetEmpty();
                 
         }
     });
