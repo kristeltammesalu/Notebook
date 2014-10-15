@@ -11,15 +11,15 @@ afterEach(function () {
     Session.set('selectedDate', '');
 });
 
-describe('selectedDay', function () {
-    it("should call Template", function() {
+describe('Dayview', function () {
+    it("should be false, because first view is calendarview", function() {
 
         expect(Session.get('dayView')).toEqual(false);
     });
 });
 
-describe("Player Ordering", function () {
-    it("should result in a list where the first player has as many or more points than the second player", function () {
+describe("First begintime", function () {
+    it("should be smaller than the second begintime", function () {
         var lectures = Template.Dayview.lectures().fetch();
         expect(lectures[0].begintime <= lectures[1].begintime).toBe(true);
     });
