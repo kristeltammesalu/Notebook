@@ -9,6 +9,7 @@ beforeEach(function () {
 
 afterEach(function () {
     Session.set('selectedDate', '');
+    //Lectures.remove({lecturedate: '8.10.2014'});
 });
 
 describe('Dayview', function () {
@@ -24,3 +25,11 @@ describe("First begintime", function () {
         expect(lectures[0].begintime <= lectures[1].begintime).toBe(true);
     });
 });
+
+describe("Endtime", function () {
+    it("should be bigger than the begintime", function () {
+        var lectures = Template.Dayview.lectures().fetch();
+        expect(lectures[0].begintime <= lectures[0].endtime).toBe(true);
+    });
+});
+

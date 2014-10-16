@@ -77,7 +77,7 @@ if (Meteor.isClient) {
                 alert("Vale formaat!");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
                 alert("Algusaeg peab olema väiksem lõpuajast!");
-            } else if(Template.Dayview.countLectures() > 15){
+            } else if(Template.Dayview.countLectures() > 14){
                alert("Rohkem tunde ei saa lisada!");
             } else {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
@@ -88,8 +88,15 @@ if (Meteor.isClient) {
 
         },
         'click #addNewLecture': function () {
-              Template.Dayview.inputSetEmpty();
-            $('#addNewLectureInput').show();
+            Template.Dayview.inputSetEmpty();
+
+            if(Template.Dayview.countLectures() > 14){
+                alert("Rohkem tunde ei saa lisada!");
+            } else {
+                $('#addNewLectureInput').show();
+            }
+
+
             //console.dir("midagi ei juhtu");
 
 

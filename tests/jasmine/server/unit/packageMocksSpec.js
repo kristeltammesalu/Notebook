@@ -7012,7 +7012,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "f66e1318f2b46ab5b92484936879f06304d18669"
+                  "value": "6fcb1900d4991a24b58b6400f8c8a768c780345c"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7244,11 +7244,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/underscore.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/underscore.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7265,11 +7261,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/underscore.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/underscore.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7278,11 +7270,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/meteor.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/meteor.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7299,11 +7287,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/meteor.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/meteor.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7312,11 +7296,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/json.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/json.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7333,11 +7313,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/json.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/json.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7346,11 +7322,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/base64.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/base64.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7367,11 +7339,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/base64.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/base64.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7380,11 +7348,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ejson.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ejson.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7401,11 +7365,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ejson.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ejson.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7414,11 +7374,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/logging.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/logging.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7435,11 +7391,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/logging.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/logging.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7448,11 +7400,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/reload.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/reload.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7469,11 +7417,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/reload.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/reload.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7482,11 +7426,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/tracker.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/tracker.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7503,11 +7443,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/tracker.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/tracker.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7516,11 +7452,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/random.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/random.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7537,11 +7469,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/random.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/random.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7550,11 +7478,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/retry.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/retry.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7571,11 +7495,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/retry.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/retry.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7584,11 +7504,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/check.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/check.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7605,11 +7521,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/check.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/check.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7618,11 +7530,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/id-map.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/id-map.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7639,11 +7547,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/id-map.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/id-map.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7652,11 +7556,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ordered-dict.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ordered-dict.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7673,11 +7573,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7686,11 +7582,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/geojson-utils.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/geojson-utils.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7707,11 +7599,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7720,11 +7608,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/minimongo.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/minimongo.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7741,11 +7625,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/minimongo.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/minimongo.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7754,11 +7634,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ddp.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ddp.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7775,11 +7651,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ddp.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ddp.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7788,11 +7660,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/follower-livedata.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/follower-livedata.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7809,11 +7677,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/follower-livedata.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/follower-livedata.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7822,11 +7686,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/application-configuration.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/application-configuration.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7843,11 +7703,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/application-configuration.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/application-configuration.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7856,11 +7712,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/insecure.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/insecure.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7877,11 +7729,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/insecure.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/insecure.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7890,11 +7738,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/mongo.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mongo.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7911,11 +7755,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/mongo.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mongo.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7924,11 +7764,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/autoupdate.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/autoupdate.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7945,11 +7781,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7958,11 +7790,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/meteor-platform.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/meteor-platform.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7979,11 +7807,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -7992,11 +7816,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/autopublish.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/autopublish.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8013,11 +7833,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/autopublish.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/autopublish.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8026,11 +7842,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/jquery.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/jquery.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8047,11 +7859,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/jquery.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/jquery.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8060,11 +7868,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8081,11 +7885,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8094,11 +7894,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/mrt_moment.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mrt_moment.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8115,11 +7911,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/mrt_moment.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mrt_moment.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8128,11 +7920,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/rzymek_fullcalendar.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/rzymek_fullcalendar.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8149,11 +7937,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/rzymek_fullcalendar.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/rzymek_fullcalendar.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8162,11 +7946,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8183,11 +7963,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8196,11 +7972,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/url.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/url.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8217,11 +7989,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/url.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/url.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8230,11 +7998,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/http.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/http.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8251,11 +8015,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/http.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/http.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8264,11 +8024,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_core.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_core.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8285,11 +8041,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8298,11 +8050,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/deps.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/deps.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8319,11 +8067,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/deps.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/deps.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8332,11 +8076,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/htmljs.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/htmljs.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8353,11 +8093,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/htmljs.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/htmljs.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8366,11 +8102,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/observe-sequence.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/observe-sequence.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8387,11 +8119,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8400,11 +8128,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/reactive-var.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/reactive-var.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8421,11 +8145,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8434,11 +8154,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/blaze.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/blaze.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8455,11 +8171,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/blaze.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/blaze.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8468,11 +8180,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/templating.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/templating.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8489,11 +8197,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/templating.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/templating.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8502,11 +8206,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/amplify.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/amplify.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8523,11 +8223,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/amplify.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/amplify.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8536,11 +8232,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/less.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/less.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8557,11 +8249,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/less.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/less.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8570,11 +8258,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8591,11 +8275,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8604,11 +8284,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/sacha_spin.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/sacha_spin.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8625,11 +8301,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/sacha_spin.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/sacha_spin.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8638,11 +8310,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/webapp.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/webapp.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8659,11 +8327,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8672,11 +8336,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8693,11 +8353,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8706,11 +8362,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/session.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/session.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8727,11 +8379,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/session.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/session.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8740,11 +8388,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/livedata.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/livedata.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8761,11 +8405,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/livedata.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/livedata.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8774,11 +8414,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ui.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ui.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8795,11 +8431,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/ui.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/ui.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8808,11 +8440,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/spacebars.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/spacebars.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8829,11 +8457,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
->>>>>>> Stashed changes
                 }
               }
             },
@@ -8842,11 +8466,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/global-imports.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/global-imports.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8862,11 +8482,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/template.PROJEKT.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/template.PROJEKT.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8882,11 +8498,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/kalender.js"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/kalender.js"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8897,20 +8509,16 @@ var packageMetadata = {
                 }
               }
             },
-            "/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css": {
+            "/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css"
-=======
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css"
->>>>>>> Stashed changes
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.map"
+                  "value": "/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8918,16 +8526,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.map": {
+            "/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css.map"
-=======
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css.map"
->>>>>>> Stashed changes
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css.map"
                 }
               }
             },
@@ -8936,11 +8540,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8956,11 +8556,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8976,11 +8572,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8996,11 +8588,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9016,11 +8604,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9036,11 +8620,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_body.jpg"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_body.jpg"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9056,11 +8636,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_content_bg.jpg"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_content_bg.jpg"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9076,11 +8652,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_list.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_list.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9096,11 +8668,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_logo.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_logo.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9116,11 +8684,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_menu_01.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_menu_01.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9136,11 +8700,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_menu_02.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_menu_02.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9156,11 +8716,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_menu_03.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_menu_03.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9176,11 +8732,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_menu_04.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_menu_04.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9196,11 +8748,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "/home/helen/Desktop/Projekt/kalendermarkmik/.meteor/local/build/programs/web.browser/app/tooplate_menu_05.png"
-=======
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/tooplate_menu_05.png"
->>>>>>> Stashed changes
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9216,11 +8764,7 @@ var packageMetadata = {
               "members": {
                 "content": {
                   "type": "constant",
-<<<<<<< Updated upstream
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?acbf201309f09f6882baaec965d067342bfdf2d3\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map\",\"size\":552978,\"hash\":\"acbf201309f09f6882baaec965d067342bfdf2d3\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?7abcd0273f1f8d27453ba556cf726d97e4969341\",\"size\":664,\"hash\":\"7abcd0273f1f8d27453ba556cf726d97e4969341\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?5cb2180f616e751090351e3993e076c87c93f581\",\"size\":4036,\"hash\":\"5cb2180f616e751090351e3993e076c87c93f581\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?6e7c28cc0e382e5d9684d0a79fc636fc00b47580\",\"size\":3590,\"hash\":\"6e7c28cc0e382e5d9684d0a79fc636fc00b47580\"},{\"path\":\"9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css\",\"sourceMap\":\"9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css.map\",\"sourceMapUrl\":\"/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.map\",\"size\":143718,\"hash\":\"9734ec92a96db79ee24f3711d3c7dac84c76e1f5\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"1e0718e27252cc2c2a52491e9a6b2a6ad70e53f5\"}"
-=======
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?acbf201309f09f6882baaec965d067342bfdf2d3\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map\",\"size\":552978,\"hash\":\"acbf201309f09f6882baaec965d067342bfdf2d3\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?7abcd0273f1f8d27453ba556cf726d97e4969341\",\"size\":664,\"hash\":\"7abcd0273f1f8d27453ba556cf726d97e4969341\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?5cb2180f616e751090351e3993e076c87c93f581\",\"size\":4036,\"hash\":\"5cb2180f616e751090351e3993e076c87c93f581\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?792852f7cb80f7c11a5041ace57d809c1695fe52\",\"size\":3432,\"hash\":\"792852f7cb80f7c11a5041ace57d809c1695fe52\"},{\"path\":\"9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css\",\"sourceMap\":\"9734ec92a96db79ee24f3711d3c7dac84c76e1f5.css.map\",\"sourceMapUrl\":\"/9734ec92a96db79ee24f3711d3c7dac84c76e1f5.map\",\"size\":143718,\"hash\":\"9734ec92a96db79ee24f3711d3c7dac84c76e1f5\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"f66e1318f2b46ab5b92484936879f06304d18669\"}"
->>>>>>> Stashed changes
+                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?acbf201309f09f6882baaec965d067342bfdf2d3\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map\",\"size\":552978,\"hash\":\"acbf201309f09f6882baaec965d067342bfdf2d3\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?7abcd0273f1f8d27453ba556cf726d97e4969341\",\"size\":664,\"hash\":\"7abcd0273f1f8d27453ba556cf726d97e4969341\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?5cb2180f616e751090351e3993e076c87c93f581\",\"size\":4036,\"hash\":\"5cb2180f616e751090351e3993e076c87c93f581\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?b6fcd6b66f21d781e59176b0e4b7ae0c5bbadd6f\",\"size\":3698,\"hash\":\"b6fcd6b66f21d781e59176b0e4b7ae0c5bbadd6f\"},{\"path\":\"c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css\",\"sourceMap\":\"c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css.map\",\"sourceMapUrl\":\"/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.map\",\"size\":143719,\"hash\":\"c85e098a1f1e8d784253680e067e8f51b5bd4d3b\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"6fcb1900d4991a24b58b6400f8c8a768c780345c\"}"
                 },
                 "type": {
                   "type": "constant",
@@ -9842,15 +9386,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-<<<<<<< Updated upstream
-          "value": "9cf2239a90345d1bae716591505a7bdeacf8a9f6"
-=======
-          "value": "62f3d4a156322e658462f8bde43d773c6048edbd"
->>>>>>> Stashed changes
+          "value": "536b9b1319e95e7c6486ee4cdb3dc3fcb5efde37"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "70576420783fd846cf4f6ac4be45e9db8de5f2fd"
+          "value": "cd0a7f7a6f49fa608ce7cf5a0293f88d5f55fe10"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
