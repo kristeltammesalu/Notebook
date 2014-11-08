@@ -6,7 +6,7 @@
 #tooplate_wrapper {
 	width: 954px;
 	height: 753px;
-	margin: 17px auto 20px;
+	margin: -25px auto 20px;
 	background: url(tooplate_content_bg.jpg) top left no-repeat;
 }
 
@@ -202,6 +202,10 @@ table.lecturesTable td {
         margin-left:42px;
 }
 
+#login-buttons{
+    padding: 10px 0px 0px 15px;
+    color: floralwhite;
+}
 
 
 

@@ -3,7 +3,9 @@ Lectures = new Mongo.Collection("lectures");
 if (Meteor.isClient) {
 
     Session.set('selectedDate', "");
+    Session.set('selectedLecture', "");
     Session.set('dayView', false);
+    Session.set('konspekt', false);
 
     Template.CalendarTemplate.rendered = function () {
         this.$('.calendar').fullCalendar({
@@ -13,9 +15,10 @@ if (Meteor.isClient) {
 
                 Session.set('dayView', true);
 
+                //alert(Meteor.userId());
+
                 Session.set('selectedDate', date.format("D.M.YYYY"));
-
-
+                Session.set('userID', Meteor.userId());
             }
         });
     }
@@ -28,23 +31,45 @@ if (Meteor.isClient) {
         return;
     }
 
+    Template.content.ifkonspektTrue = function () {
+
+        if (Session.equals('konspekt', true)) {
+            return Session.get('selectedDate');
+        }
+        return;
+    }
+
     Template.Dayview.selectedDay = function () {
 
         return Session.get('selectedDate');
 
     };
 
+    Template.konspekt.selectedDay = function () {
+
+        return Session.get('selectedDate');
+
+    };
+
+    Template.konspekt.selectedLecture = function () {
+
+        return Session.get('selectedLecture');
+
+    };
+
     //ask all lectures and sort by begintime
     Template.Dayview.lectures = function () {
         var selectedDate = Session.get('selectedDate');
+        var userID = Session.get('userID');
 
-        return Lectures.find({lecturedate: selectedDate}, {sort: {begintime: 1}});
+        return Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}});
     };
 
     Template.Dayview.countLectures = function () {
         var selectedDate = Session.get('selectedDate');
+        var userID = Session.get('userID');
 
-        var countLectures = Lectures.find({lecturedate: selectedDate}, {sort: {begintime: 1}}).count();
+        var countLectures = Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}}).count();
 
         return countLectures;
     };
@@ -58,10 +83,23 @@ if (Meteor.isClient) {
         return beginTimeEmpty, endTimeEmpty, lectureNameEmpty;
     };
 
+    Template.loginButtons.events({
+        'click #login-buttons-facebook': function () {
+            Session.set('dayView', false);
+            console.dir("Töötab!");
+        }
+
+    });
+
+    Template.signinpage.events = function () {
+
+        $('#signInPage').addClass("signInPage");
+    };
 
     Template.Dayview.events({
         'click #saveButton': function (evt, tmpl) {
             var selectedCurrent = Session.get('selectedDate');
+            var userID = Session.get('userID');
 
             //alert(Session.get('selectedDate'));
 
@@ -81,7 +119,7 @@ if (Meteor.isClient) {
                alert("Rohkem tunde ei saa lisada!");
             } else {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
-                Lectures.insert({lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
+                Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
 
                 $('#addNewLectureInput').hide();
             }
@@ -110,7 +148,17 @@ if (Meteor.isClient) {
             $('#addNewLectureInput').hide();
            Template.Dayview.inputSetEmpty();
                 
+        },
+
+        'click .lecturename2': function (e) {
+
+            var lectureName = $(e.target).text()
+            alert(lectureName);
+            $('#katsetus').hide();
+            Session.set('konspekt', true);
+            Session.set('selectedLecture', lectureName);
         }
+
     });
 }
 
