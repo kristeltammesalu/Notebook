@@ -11,3 +11,9 @@ rzymek:fullcalendar
 sanjo:jasmine
 velocity:html-reporter
 sacha:spin
+accounts-base
+accounts-ui
+accounts-facebook
+accounts-google
+mcrider:bootstrap-wysiwyg
+

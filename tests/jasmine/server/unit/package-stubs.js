@@ -98,6 +98,10 @@ var packageMetadata = {
             "/sockjs/": {
               "type": "constant",
               "value": "network"
+            },
+            "/_oauth/": {
+              "type": "constant",
+              "value": "network"
             }
           }
         },
@@ -7011,7 +7015,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "6fcb1900d4991a24b58b6400f8c8a768c780345c"
+                  "value": "020f3c3667263a3cb6bb10f80e8eb26dd0c1690a"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -8304,16 +8308,16 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/webapp.js": {
+            "/packages/localstorage.js": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/webapp.js"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/localstorage.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map"
+                  "value": "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8321,12 +8325,64 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map": {
+            "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/localstorage.js.map"
+                }
+              }
+            },
+            "/packages/accounts-base.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-base.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/94972067650078763eca7f54b72598624e0d8b9d.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/94972067650078763eca7f54b72598624e0d8b9d.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map"
+                }
+              }
+            },
+            "/packages/service-configuration.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/service-configuration.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map"
                 }
               }
             },
@@ -8379,6 +8435,318 @@ var packageMetadata = {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/session.js.map"
+                }
+              }
+            },
+            "/packages/oauth.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/oauth.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/8a1852202152d162cae0dd6a7e27f32d3a595dff.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/8a1852202152d162cae0dd6a7e27f32d3a595dff.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/oauth.js.map"
+                }
+              }
+            },
+            "/packages/accounts-oauth.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-oauth.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-oauth.js.map"
+                }
+              }
+            },
+            "/packages/accounts-ui-unstyled.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/724142103f86896bf7ab0a57672b34086f989b24.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/724142103f86896bf7ab0a57672b34086f989b24.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js.map"
+                }
+              }
+            },
+            "/packages/accounts-ui.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-ui.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/1ff79db616cce9b320fe8aed6103eded31248467.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/1ff79db616cce9b320fe8aed6103eded31248467.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-ui.js.map"
+                }
+              }
+            },
+            "/packages/oauth2.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/oauth2.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/5fa58098b89a1467037a0b8eb4b17ad33b72cf07.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/5fa58098b89a1467037a0b8eb4b17ad33b72cf07.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/oauth2.js.map"
+                }
+              }
+            },
+            "/packages/facebook.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/facebook.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/0245f1984f8f7e3619540cf7a01541ce0af52355.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/0245f1984f8f7e3619540cf7a01541ce0af52355.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/facebook.js.map"
+                }
+              }
+            },
+            "/packages/accounts-facebook.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-facebook.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/9e890f917b8ec3c3ea39544407a7e982dbc6d5ae.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/9e890f917b8ec3c3ea39544407a7e982dbc6d5ae.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-facebook.js.map"
+                }
+              }
+            },
+            "/packages/google.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/google.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/150e583c547f6967b4432916f600e6445d762fe2.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/150e583c547f6967b4432916f600e6445d762fe2.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/google.js.map"
+                }
+              }
+            },
+            "/packages/accounts-google.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-google.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/9ef9953d728cd324cfd7280e7b31c1b89ce5eed5.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/9ef9953d728cd324cfd7280e7b31c1b89ce5eed5.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/accounts-google.js.map"
+                }
+              }
+            },
+            "/packages/bootstrap.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/bootstrap.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/ec8a7746b798984dd1df9eb6ae62114dcf98f504.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/ec8a7746b798984dd1df9eb6ae62114dcf98f504.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/bootstrap.js.map"
+                }
+              }
+            },
+            "/packages/mcrider_bootstrap-wysiwyg.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mcrider_bootstrap-wysiwyg.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/9eb10605a6e87de7ad218e8c5866b886d48a334a.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/9eb10605a6e87de7ad218e8c5866b886d48a334a.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/mcrider_bootstrap-wysiwyg.js.map"
+                }
+              }
+            },
+            "/packages/webapp.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/webapp.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
                 }
               }
             },
@@ -8492,6 +8860,22 @@ var packageMetadata = {
                 }
               }
             },
+            "/conspectus.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/conspectus.js"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
             "/kalender.js": {
               "type": "object",
               "members": {
@@ -8508,16 +8892,32 @@ var packageMetadata = {
                 }
               }
             },
-            "/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css": {
+            "/konspekt.js": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/app/konspekt.js"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/18a88e9d657b613f96fe88edd200027006b1b6fb.css": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/18a88e9d657b613f96fe88edd200027006b1b6fb.css"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.map"
+                  "value": "/18a88e9d657b613f96fe88edd200027006b1b6fb.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8525,12 +8925,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.map": {
+            "/18a88e9d657b613f96fe88edd200027006b1b6fb.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css.map"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/18a88e9d657b613f96fe88edd200027006b1b6fb.css.map"
                 }
               }
             },
@@ -8604,6 +9004,38 @@ var packageMetadata = {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "asset"
+                }
+              }
+            },
+            "/packages/bootstrap/img/glyphicons-halflings.png": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/bootstrap/img/glyphicons-halflings.png"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "asset"
+                }
+              }
+            },
+            "/packages/bootstrap/img/glyphicons-halflings-white.png": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/bootstrap/img/glyphicons-halflings-white.png"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8763,7 +9195,7 @@ var packageMetadata = {
               "members": {
                 "content": {
                   "type": "constant",
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?acbf201309f09f6882baaec965d067342bfdf2d3\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map\",\"size\":552978,\"hash\":\"acbf201309f09f6882baaec965d067342bfdf2d3\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?7abcd0273f1f8d27453ba556cf726d97e4969341\",\"size\":664,\"hash\":\"7abcd0273f1f8d27453ba556cf726d97e4969341\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?5cb2180f616e751090351e3993e076c87c93f581\",\"size\":4036,\"hash\":\"5cb2180f616e751090351e3993e076c87c93f581\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?b6fcd6b66f21d781e59176b0e4b7ae0c5bbadd6f\",\"size\":3698,\"hash\":\"b6fcd6b66f21d781e59176b0e4b7ae0c5bbadd6f\"},{\"path\":\"c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css\",\"sourceMap\":\"c85e098a1f1e8d784253680e067e8f51b5bd4d3b.css.map\",\"sourceMapUrl\":\"/c85e098a1f1e8d784253680e067e8f51b5bd4d3b.map\",\"size\":143719,\"hash\":\"c85e098a1f1e8d784253680e067e8f51b5bd4d3b\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"6fcb1900d4991a24b58b6400f8c8a768c780345c\"}"
+                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?acbf201309f09f6882baaec965d067342bfdf2d3\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map\",\"size\":552978,\"hash\":\"acbf201309f09f6882baaec965d067342bfdf2d3\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?94972067650078763eca7f54b72598624e0d8b9d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/94972067650078763eca7f54b72598624e0d8b9d.map\",\"size\":96808,\"hash\":\"94972067650078763eca7f54b72598624e0d8b9d\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/oauth.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/oauth.js?8a1852202152d162cae0dd6a7e27f32d3a595dff\",\"sourceMap\":\"packages/oauth.js.map\",\"sourceMapUrl\":\"/packages/8a1852202152d162cae0dd6a7e27f32d3a595dff.map\",\"size\":27509,\"hash\":\"8a1852202152d162cae0dd6a7e27f32d3a595dff\"},{\"path\":\"packages/accounts-oauth.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-oauth.js?e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7\",\"sourceMap\":\"packages/accounts-oauth.js.map\",\"sourceMapUrl\":\"/packages/e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7.map\",\"size\":15783,\"hash\":\"e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7\"},{\"path\":\"packages/accounts-ui-unstyled.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui-unstyled.js?724142103f86896bf7ab0a57672b34086f989b24\",\"sourceMap\":\"packages/accounts-ui-unstyled.js.map\",\"sourceMapUrl\":\"/packages/724142103f86896bf7ab0a57672b34086f989b24.map\",\"size\":241869,\"hash\":\"724142103f86896bf7ab0a57672b34086f989b24\"},{\"path\":\"packages/accounts-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui.js?1ff79db616cce9b320fe8aed6103eded31248467\",\"sourceMap\":\"packages/accounts-ui.js.map\",\"sourceMapUrl\":\"/packages/1ff79db616cce9b320fe8aed6103eded31248467.map\",\"size\":1346,\"hash\":\"1ff79db616cce9b320fe8aed6103eded31248467\"},{\"path\":\"packages/oauth2.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/oauth2.js?5fa58098b89a1467037a0b8eb4b17ad33b72cf07\",\"sourceMap\":\"packages/oauth2.js.map\",\"sourceMapUrl\":\"/packages/5fa58098b89a1467037a0b8eb4b17ad33b72cf07.map\",\"size\":1436,\"hash\":\"5fa58098b89a1467037a0b8eb4b17ad33b72cf07\"},{\"path\":\"packages/facebook.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/facebook.js?0245f1984f8f7e3619540cf7a01541ce0af52355\",\"sourceMap\":\"packages/facebook.js.map\",\"sourceMapUrl\":\"/packages/0245f1984f8f7e3619540cf7a01541ce0af52355.map\",\"size\":12038,\"hash\":\"0245f1984f8f7e3619540cf7a01541ce0af52355\"},{\"path\":\"packages/accounts-facebook.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-facebook.js?9e890f917b8ec3c3ea39544407a7e982dbc6d5ae\",\"sourceMap\":\"packages/accounts-facebook.js.map\",\"sourceMapUrl\":\"/packages/9e890f917b8ec3c3ea39544407a7e982dbc6d5ae.map\",\"size\":5102,\"hash\":\"9e890f917b8ec3c3ea39544407a7e982dbc6d5ae\"},{\"path\":\"packages/google.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/google.js?150e583c547f6967b4432916f600e6445d762fe2\",\"sourceMap\":\"packages/google.js.map\",\"sourceMapUrl\":\"/packages/150e583c547f6967b4432916f600e6445d762fe2.map\",\"size\":16490,\"hash\":\"150e583c547f6967b4432916f600e6445d762fe2\"},{\"path\":\"packages/accounts-google.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-google.js?9ef9953d728cd324cfd7280e7b31c1b89ce5eed5\",\"sourceMap\":\"packages/accounts-google.js.map\",\"sourceMapUrl\":\"/packages/9ef9953d728cd324cfd7280e7b31c1b89ce5eed5.map\",\"size\":5596,\"hash\":\"9ef9953d728cd324cfd7280e7b31c1b89ce5eed5\"},{\"path\":\"packages/bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/bootstrap.js?ec8a7746b798984dd1df9eb6ae62114dcf98f504\",\"sourceMap\":\"packages/bootstrap.js.map\",\"sourceMapUrl\":\"/packages/ec8a7746b798984dd1df9eb6ae62114dcf98f504.map\",\"size\":282505,\"hash\":\"ec8a7746b798984dd1df9eb6ae62114dcf98f504\"},{\"path\":\"packages/mcrider_bootstrap-wysiwyg.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mcrider_bootstrap-wysiwyg.js?9eb10605a6e87de7ad218e8c5866b886d48a334a\",\"sourceMap\":\"packages/mcrider_bootstrap-wysiwyg.js.map\",\"sourceMapUrl\":\"/packages/9eb10605a6e87de7ad218e8c5866b886d48a334a.map\",\"size\":39365,\"hash\":\"9eb10605a6e87de7ad218e8c5866b886d48a334a\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?9c134d849029b2844b517c668f2a24641cf72e08\",\"size\":710,\"hash\":\"9c134d849029b2844b517c668f2a24641cf72e08\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?55f93f2447e9f2c451eb04d509abef9c869f154f\",\"size\":6298,\"hash\":\"55f93f2447e9f2c451eb04d509abef9c869f154f\"},{\"path\":\"app/conspectus.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/conspectus.js?d523858fa90c769f1c807d118303be94407e8f07\",\"size\":2788,\"hash\":\"d523858fa90c769f1c807d118303be94407e8f07\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?fcd62054ea4007abdde58a51274ba29628e90433\",\"size\":4944,\"hash\":\"fcd62054ea4007abdde58a51274ba29628e90433\"},{\"path\":\"app/konspekt.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/konspekt.js?cb1425618a6af81108495ab9d39016d349f8fb67\",\"size\":45,\"hash\":\"cb1425618a6af81108495ab9d39016d349f8fb67\"},{\"path\":\"18a88e9d657b613f96fe88edd200027006b1b6fb.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/18a88e9d657b613f96fe88edd200027006b1b6fb.css\",\"sourceMap\":\"18a88e9d657b613f96fe88edd200027006b1b6fb.css.map\",\"sourceMapUrl\":\"/18a88e9d657b613f96fe88edd200027006b1b6fb.map\",\"size\":303404,\"hash\":\"18a88e9d657b613f96fe88edd200027006b1b6fb\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"packages/bootstrap/img/glyphicons-halflings.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/bootstrap/img/glyphicons-halflings.png\",\"size\":12799,\"hash\":\"84f613631b07d4fe22acbab50e551c0fe04bd78b\"},{\"path\":\"packages/bootstrap/img/glyphicons-halflings-white.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/bootstrap/img/glyphicons-halflings-white.png\",\"size\":8777,\"hash\":\"a25c4705320fd63c33790e666872910e702b9bf6\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"020f3c3667263a3cb6bb10f80e8eb26dd0c1690a\"}"
                 },
                 "type": {
                   "type": "constant",
@@ -9385,11 +9817,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "536b9b1319e95e7c6486ee4cdb3dc3fcb5efde37"
+          "value": "b7d579318bb7d6d69b7c19852404eb33b3273950"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "cd0a7f7a6f49fa608ce7cf5a0293f88d5f55fe10"
+          "value": "376b7c59c7d758169b6f212215cba88a0cfcd28c"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -9714,6 +10146,202 @@ var packageMetadata = {
   "sanjo:jasmine": {},
   "velocity:html-reporter": {},
   "sacha:spin": {},
+  "accounts-base": {
+    "Accounts": {
+      "type": "object",
+      "members": {
+        "config": {
+          "type": "function"
+        },
+        "LoginCancelledError": {
+          "type": "function",
+          "members": {
+            "numericError": {
+              "type": "constant",
+              "value": 145546287
+            }
+          }
+        },
+        "validateLoginAttempt": {
+          "type": "function"
+        },
+        "onLogin": {
+          "type": "function"
+        },
+        "onLoginFailure": {
+          "type": "function"
+        },
+        "registerLoginHandler": {
+          "type": "function"
+        },
+        "destroyToken": {
+          "type": "function"
+        },
+        "onCreateUser": {
+          "type": "function"
+        },
+        "insertUserDoc": {
+          "type": "function"
+        },
+        "validateNewUser": {
+          "type": "function"
+        },
+        "updateOrCreateUserFromExternalService": {
+          "type": "function"
+        },
+        "addAutopublishFields": {
+          "type": "function"
+        },
+        "urls": {
+          "type": "object",
+          "members": {
+            "resetPassword": {
+              "type": "function"
+            },
+            "verifyEmail": {
+              "type": "function"
+            },
+            "enrollAccount": {
+              "type": "function"
+            }
+          }
+        },
+        "oauth": {
+          "type": "object",
+          "members": {
+            "registerService": {
+              "type": "function"
+            },
+            "serviceNames": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "accounts-ui": {},
+  "service-configuration": {
+    "ServiceConfiguration": {
+      "type": "object",
+      "members": {
+        "configurations": {
+          "type": "object",
+          "members": {
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            },
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "upsert": {
+              "type": "function"
+            },
+            "allow": {
+              "type": "function"
+            },
+            "deny": {
+              "type": "function"
+            }
+          }
+        },
+        "ConfigError": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "localstorage": {},
+  "oauth": {
+    "OAuth": {
+      "type": "object",
+      "members": {
+        "registerService": {
+          "type": "function"
+        },
+        "retrieveCredential": {
+          "type": "function"
+        },
+        "sealSecret": {
+          "type": "function"
+        },
+        "openSecret": {
+          "type": "function"
+        },
+        "openSecrets": {
+          "type": "function"
+        }
+      }
+    },
+    "OAuthTest": {
+      "type": "object",
+      "members": {
+        "unregisterService": {
+          "type": "function"
+        },
+        "middleware": {
+          "type": "function"
+        }
+      }
+    },
+    "Oauth": {
+      "type": "object",
+      "members": {
+        "registerService": {
+          "type": "function"
+        },
+        "retrieveCredential": {
+          "type": "function"
+        },
+        "sealSecret": {
+          "type": "function"
+        },
+        "openSecret": {
+          "type": "function"
+        },
+        "openSecrets": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "accounts-oauth": {},
+  "oauth2": {},
+  "facebook": {
+    "Facebook": {
+      "type": "object",
+      "members": {
+        "retrieveCredential": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "accounts-facebook": {},
+  "google": {
+    "Google": {
+      "type": "object",
+      "members": {
+        "whitelistedFields": {
+          "type": "array"
+        },
+        "retrieveCredential": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "accounts-google": {},
+  "mcrider:bootstrap-wysiwyg": {},
   "session": {},
   "livedata": {
     "DDP": {

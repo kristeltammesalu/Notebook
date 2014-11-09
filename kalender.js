@@ -5,7 +5,7 @@ if (Meteor.isClient) {
     Session.set('selectedDate', "");
     Session.set('selectedLecture', "");
     Session.set('dayView', false);
-    Session.set('konspekt', false);
+    Session.set('conspectus', false);
 
     Template.CalendarTemplate.rendered = function () {
         this.$('.calendar').fullCalendar({
@@ -23,6 +23,11 @@ if (Meteor.isClient) {
         });
     }
 
+    Template.signinpage.rendered = function()
+    {
+        Accounts._loginButtonsSession.set('dropdownVisible', true);
+    };
+
     Template.content.ifDayviewTrue = function () {
 
         if (Session.equals('dayView', true)) {
@@ -33,7 +38,7 @@ if (Meteor.isClient) {
 
     Template.content.ifkonspektTrue = function () {
 
-        if (Session.equals('konspekt', true)) {
+        if (Session.equals('conspectus', true)) {
             return Session.get('selectedDate');
         }
         return;
@@ -42,18 +47,6 @@ if (Meteor.isClient) {
     Template.Dayview.selectedDay = function () {
 
         return Session.get('selectedDate');
-
-    };
-
-    Template.konspekt.selectedDay = function () {
-
-        return Session.get('selectedDate');
-
-    };
-
-    Template.konspekt.selectedLecture = function () {
-
-        return Session.get('selectedLecture');
 
     };
 
@@ -152,10 +145,10 @@ if (Meteor.isClient) {
 
         'click .lecturename2': function (e) {
 
-            var lectureName = $(e.target).text()
-            alert(lectureName);
+            var lectureName = $(e.target).text();
+            //alert(lectureName);
             $('#katsetus').hide();
-            Session.set('konspekt', true);
+            Session.set('conspectus', true);
             Session.set('selectedLecture', lectureName);
         }
 

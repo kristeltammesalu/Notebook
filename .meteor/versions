@@ -1,3 +1,9 @@
+accounts-base@1.1.1
+accounts-facebook@1.0.1
+accounts-google@1.0.1
+accounts-oauth@1.1.1
+accounts-ui-unstyled@1.1.2
+accounts-ui@1.1.1
 alanning:package-stubber@0.0.9
 amplify@1.0.0
 application-configuration@1.0.2
@@ -8,6 +14,7 @@ binary-heap@1.0.0
 blaze-tools@1.0.0
 blaze@2.0.1
 boilerplate-generator@1.0.0
+bootstrap@1.0.1
 callback-hook@1.0.0
 check@1.0.1
 ctl-helper@1.0.3
@@ -15,9 +22,11 @@ ctl@1.0.1
 ddp@1.0.9
 deps@1.0.4
 ejson@1.0.3
+facebook@1.1.0
 fastclick@1.0.0
 follower-livedata@1.0.1
 geojson-utils@1.0.0
+google@1.1.0
 html-tools@1.0.1
 htmljs@1.0.1
 http@1.0.6
@@ -27,7 +36,9 @@ jquery@1.0.0
 json@1.0.0
 less@1.0.9
 livedata@1.0.10
+localstorage@1.0.0
 logging@1.0.3
+mcrider:bootstrap-wysiwyg@0.1.0
 meteor-platform@1.1.1
 meteor@1.1.1
 minifiers@1.1.0
@@ -36,6 +47,8 @@ mobile-status-bar@1.0.0
 mongo@1.0.6
 mrt:jquery-ui@1.9.2
 mrt:moment@2.8.1
+oauth2@1.1.0
+oauth@1.1.0
 observe-sequence@1.0.2
 ordered-dict@1.0.0
 random@1.0.0
@@ -47,6 +60,7 @@ routepolicy@1.0.1
 rzymek:fullcalendar@2.1.1
 sacha:spin@2.0.4
 sanjo:jasmine@0.4.14
+service-configuration@1.0.1
 session@1.0.2
 spacebars-compiler@1.0.2
 spacebars@1.0.2

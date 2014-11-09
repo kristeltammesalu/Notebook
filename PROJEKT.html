@@ -8,12 +8,14 @@
 <body>
 
     {{#if currentUser}}
-    <div id="slider">
+    <div id="slider" class="signedIn">
         {{>loginButtons}}
         {{> content}}
     </div>
     {{else}}
-        {{> signinpage}}
+        <div class="signIn">
+            {{> signinpage}}
+        </div>
     {{/if}}
 
 </body>
@@ -51,7 +53,7 @@
                 {{/if}}
 
                 {{#if ifkonspektTrue}}
-                    {{> konspekt}}
+                    {{> conspectus}}
                 {{/if}}
 
 
@@ -111,10 +113,22 @@
 
 </template>
 
-<template name="konspekt">
+<template name="conspectus">
     <div id="konspekt">
         <h1>{{selectedDay}} {{selectedLecture}}</h1>
-        <button id="backButton" class="fa fa-arrow-left"></button>
+
+
+        <textarea disabled id="writtenConspectus" placeholder="Kirjuta oma konspekt siia!" style="height:450px; width: 500px">
+            {{#each showConspectus}}
+            {{conspectus}}
+            {{/each}}
+        </textarea>
+
+        <div class="footer">
+            <button id="backButton" class="fa fa-arrow-left"></button>
+            <button id="saveButton" class="fa fa-check check"></button>
+            <button id="editButton" class="fa fa-check check"></button>
+        </div>
     </div>
 </template>
 
