@@ -21,7 +21,9 @@
 </body>
 
 <template name="signinpage">
+
     <div id="signInPage">
+        <h1 class=signInHeader>Tere Tulemast!</h1>
         {{>loginButtons}}
     </div>
 </template>
@@ -37,7 +39,8 @@
 
             <div id="menu">
                 <ul class="navigation">
-                    <li><a href="#home" class="selected menu_01">Kalender</a></li>
+                    <li><a href="" class="selected menu_01">Kalender</a></li>
+
 
                 </ul>
             </div>
@@ -63,6 +66,10 @@
 
 </template>
 
+<template name="todo">
+    <div class="todo">HELLO</div>
+
+</template>
 
 <template name="CalendarTemplate">
     <div class="calendar"></div>
@@ -99,7 +106,7 @@
             <td><input type="text" id="endTime" class="timeInput" placeholder="--:--"></td> 
             <td><input type="text" id="lectureName" class="lecture" ></td>
             <td><button id="closeButton"  class="fa fa-times close"></button></td>
-            <td><button id="saveButton" class="fa fa-check check"></button></td>
+            <td><button id="saveButton" class="fa fa-check"></button></td>
         </tr>
     </table>
 
@@ -118,16 +125,16 @@
         <h1>{{selectedDay}} {{selectedLecture}}</h1>
 
 
-        <textarea disabled id="writtenConspectus" placeholder="Kirjuta oma konspekt siia!" style="height:450px; width: 500px">
+        <textarea id="writtenConspectus" cols="10" placeholder="Kirjuta oma konspekt siia!">
             {{#each showConspectus}}
             {{conspectus}}
             {{/each}}
         </textarea>
 
         <div class="footer">
-            <button id="backButton" class="fa fa-arrow-left"></button>
-            <button id="saveButton" class="fa fa-check check"></button>
-            <button id="editButton" class="fa fa-check check"></button>
+            <button id="backConspectusButton" class="fa fa-arrow-left"></button>
+            <button id="saveConspectusButton" class="fa fa-check check"></button>
+
         </div>
     </div>
 </template>
@@ -138,7 +145,7 @@
             <tr >
                 <td style="width: 70px;">{{begintime}}</td>
                 <td style="width: 70px;">{{endtime}}</td> 
-                <td id="{{_id}}" class="lecturename2" style="width: 200px;">{{lecturename}}</td>
+                <td id="{{_id}}" class="clickLecturename" style="width: 200px;">{{lecturename}}</td>
             </tr>
         </table>
     </div>

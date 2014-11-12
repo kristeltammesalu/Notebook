@@ -23,6 +23,7 @@ if (Meteor.isClient) {
         var selectedCurrentLecture = Session.get('selectedLecture');
 
         return Conspectus.find({userid: userID, lecturedate: selectedDate, lecturename: selectedCurrentLecture});
+
     };
 
     Template.Dayview.countConspectus = function () {
@@ -37,37 +38,43 @@ if (Meteor.isClient) {
 
     Template.conspectus.events({
 
-        'click #saveButton': function (tmpl) {
+        'click #saveConspectusButton': function (t) {
             var selectedCurrent = Session.get('selectedDate');
             var userID = Session.get('userID');
             var selectedCurrentLecture = Session.get('selectedLecture');
-            //var writtenConspectus = tmpl.find("#writtenConspectus").value;
             var writtenConspectus = document.getElementById("writtenConspectus").value;
+            $(writtenConspectus).trim();
             //alert(writtenConspectus);
-            //Conspectus.insert({userid:userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture, conspectus: writtenConspectus});
-            alert(Template.Dayview.countConspectus());
+            //alert(Template.Dayview.countConspectus());
 
             if(Template.Dayview.countConspectus() == 0) {
                 Conspectus.insert({userid:userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture, conspectus: writtenConspectus});
             } else if (Template.Dayview.countConspectus() == 1) {
-                alert("elseif" + writtenConspectus);
-                Conspectus.update({userid: userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture}, {$set: {writtenconspectus: writtenConspectus}});
+                //alert("elseif " + writtenConspectus);
+
+                var conspectus = Conspectus.findOne({userid: userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture});
+                //alert(conspectus._id);
+
+                Conspectus.update({_id: conspectus._id}, {$set: {conspectus: writtenConspectus}},
+                    {}, function(err, doc){
+                    //alert("Töötab!");
+                });
             }
 
         },
 
-        'click #backButton': function () {
+        'click #backConspectusButton': function () {
             $('#katsetus').show();
             Session.set('conspectus', false);
             Session.set('dayView', true);
-        },
+        }
 
-        'click #editButton': function () {
+        /*'click #editButton': function () {
             if(document.getElementById("writtenConspectus").disabled == true) {
                 $("#writtenConspectus").prop('disabled',false);
             } else {
                 $("#writtenConspectus").prop('disabled',true);
             }
-        }
+        }*/
     });
 }

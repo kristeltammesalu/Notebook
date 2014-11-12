@@ -2,12 +2,16 @@ Lectures = new Mongo.Collection("lectures");
 
 if (Meteor.isClient) {
 
+
     Session.set('selectedDate', "");
     Session.set('selectedLecture', "");
     Session.set('dayView', false);
     Session.set('conspectus', false);
 
     Template.CalendarTemplate.rendered = function () {
+        $( ".login-button" ).addClass('logout-button');
+        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
+
         this.$('.calendar').fullCalendar({
             dayClick: function (date, jsEvent, view) {
 
@@ -23,10 +27,18 @@ if (Meteor.isClient) {
         });
     }
 
-    Template.signinpage.rendered = function()
+    /*Template.signinpage.rendered = function()
     {
+        $( ".login-link-text" ).css( "display", "none" );
         Accounts._loginButtonsSession.set('dropdownVisible', true);
-    };
+
+    };*/
+
+    Template.content.rendered = function() {
+        $( ".login-button" ).addClass('logout-button');
+        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
+
+    }
 
     Template.content.ifDayviewTrue = function () {
 
@@ -79,15 +91,17 @@ if (Meteor.isClient) {
     Template.loginButtons.events({
         'click #login-buttons-facebook': function () {
             Session.set('dayView', false);
+            Session.set('conspectus', false);
             console.dir("Töötab!");
+            $('#login-buttons-logout').addClass("signInPage");
         }
 
     });
 
-    Template.signinpage.events = function () {
-
-        $('#signInPage').addClass("signInPage");
-    };
+    Template.Dayview.rendered = function () {
+        $( ".login-button" ).addClass('logout-button');
+        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
+    }
 
     Template.Dayview.events({
         'click #saveButton': function (evt, tmpl) {
@@ -126,11 +140,6 @@ if (Meteor.isClient) {
             } else {
                 $('#addNewLectureInput').show();
             }
-
-
-            //console.dir("midagi ei juhtu");
-
-
         },
         'click #backButton': function () {
             Session.set('dayView', false);
@@ -143,8 +152,7 @@ if (Meteor.isClient) {
                 
         },
 
-        'click .lecturename2': function (e) {
-
+        'click .clickLecturename': function (e) {
             var lectureName = $(e.target).text();
             //alert(lectureName);
             $('#katsetus').hide();
@@ -153,6 +161,8 @@ if (Meteor.isClient) {
         }
 
     });
+
+
 }
 
 if (Meteor.isServer) {
