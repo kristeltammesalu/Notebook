@@ -14,6 +14,7 @@ sacha:spin
 accounts-base
 accounts-ui
 accounts-facebook
-accounts-google
-mcrider:bootstrap-wysiwyg
+mike:mocha
+mrt:bootstrap3-wysihtml5
+mrt:bootstrap-wysihtml5
 

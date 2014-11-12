@@ -1,6 +1,5 @@
 accounts-base@1.1.1
 accounts-facebook@1.0.1
-accounts-google@1.0.1
 accounts-oauth@1.1.1
 accounts-ui-unstyled@1.1.2
 accounts-ui@1.1.1
@@ -26,7 +25,6 @@ facebook@1.1.0
 fastclick@1.0.0
 follower-livedata@1.0.1
 geojson-utils@1.0.0
-google@1.1.0
 html-tools@1.0.1
 htmljs@1.0.1
 http@1.0.6
@@ -38,13 +36,15 @@ less@1.0.9
 livedata@1.0.10
 localstorage@1.0.0
 logging@1.0.3
-mcrider:bootstrap-wysiwyg@0.1.0
 meteor-platform@1.1.1
 meteor@1.1.1
+mike:mocha@0.3.14
 minifiers@1.1.0
 minimongo@1.0.3
 mobile-status-bar@1.0.0
 mongo@1.0.6
+mrt:bootstrap-wysihtml5@0.3.1
+mrt:bootstrap3-wysihtml5@0.3.3
 mrt:jquery-ui@1.9.2
 mrt:moment@2.8.1
 oauth2@1.1.0
@@ -71,5 +71,6 @@ underscore@1.0.0
 url@1.0.0
 velocity:core@0.2.14
 velocity:html-reporter@0.2.3
+velocity:shim@0.0.1
 webapp-hashing@1.0.0
 webapp@1.1.2

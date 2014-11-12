@@ -43,8 +43,8 @@ if (Meteor.isClient) {
             var userID = Session.get('userID');
             var selectedCurrentLecture = Session.get('selectedLecture');
             var writtenConspectus = document.getElementById("writtenConspectus").value;
-            $(writtenConspectus).trim();
-            //alert(writtenConspectus);
+            $(writtenConspectus).val();
+            alert(writtenConspectus);
             //alert(Template.Dayview.countConspectus());
 
             if(Template.Dayview.countConspectus() == 0) {
@@ -77,4 +77,8 @@ if (Meteor.isClient) {
             }
         }*/
     });
+
+    Template.conspectus.rendered = function () {
+        $('#writtenConspectus').wysihtml5();
+    };
 }
