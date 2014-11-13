@@ -44,7 +44,7 @@ if (Meteor.isClient) {
             var selectedCurrentLecture = Session.get('selectedLecture');
             var writtenConspectus = document.getElementById("writtenConspectus").value;
             $(writtenConspectus).val();
-            alert(writtenConspectus);
+            //alert(writtenConspectus);
             //alert(Template.Dayview.countConspectus());
 
             if(Template.Dayview.countConspectus() == 0) {

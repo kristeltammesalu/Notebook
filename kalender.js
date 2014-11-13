@@ -40,6 +40,13 @@ if (Meteor.isClient) {
 
     }
 
+    Template.loginButtons.rendered = function() {
+        $( ".login-button" ).addClass('logout-button');
+        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
+
+    }
+
+
     Template.content.ifDayviewTrue = function () {
 
         if (Session.equals('dayView', true)) {
@@ -101,6 +108,12 @@ if (Meteor.isClient) {
     Template.Dayview.rendered = function () {
         $( ".login-button" ).addClass('logout-button');
         $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
+    }
+
+
+    Template.signinpage.rendered = function () {
+        $( ".login-button" ).removeClass('logout-button');
+        $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
     }
 
     Template.Dayview.events({
