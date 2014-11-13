@@ -40,7 +40,7 @@
 
 #content {
 	float: right;
-	width: 500px;
+	width: 520px;
 	height: 600px;	
 	padding: 80px 100px 80px 0;
 }
@@ -63,19 +63,19 @@
 	color: #bbb;
 }
 
-ul.navigation {
+ul.navigation1 {
     list-style: none;
     margin: 0 auto;
     padding: 0;
 }
 
-ul.navigation li {
+ul.navigation1 li {
     display: inline;
     margin: 0;
 	padding: 0;
 }
 
-ul.navigation a {
+ul.navigation1 a {
 	display: block;
 	height: 47px;
 	padding: 12px 0 0 20px;
@@ -88,11 +88,11 @@ ul.navigation a {
 
 .menu_01 { background: url(tooplate_menu_03.png) }
 
-ul.navigation a:hover, ul.navigation a.selected {
+ul.navigation1 a:hover, ul.navigation a.selected {
 	color: #412810;
 }
 
-ul.navigation a:focus {
+ul.navigation1 a:focus {
     outline: none;
 }
 
@@ -141,8 +141,8 @@ em { color: #29b5d3; }
 	font-family: 'Crete Round', serif;
 	font-size: 20px;
 	border-collapse:collapse; 
-        width: 400px;
-        margin-left: 40px;
+    width: 470px;
+    margin-left: 40px;
 }
 
 #addNewLectureInput {
@@ -279,6 +279,22 @@ table.lecturesTable td {
     max-height:450px;
     max-width: 494px
 
+}
+
+.scroll {
+    height: 400px;
+    width: 550px;
+    overflow: auto;
+    overflow-x: hidden;
+    clear: left;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.table {
+    margin-bottom: 0px;
 }
 
 

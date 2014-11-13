@@ -844,7 +844,7 @@ var packageMetadata = {
             }
           }
         },
-        "B": {
+        "ARTICLE": {
           "type": "function",
           "refID": 116,
           "members": {
@@ -853,2046 +853,6 @@ var packageMetadata = {
               "members": {
                 "constructor": {
                   "ref": 116
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "b"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BASE": {
-          "type": "function",
-          "refID": 118,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 118
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "base"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BASEFONT": {
-          "type": "function",
-          "refID": 120,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 120
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "basefont"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BDO": {
-          "type": "function",
-          "refID": 122,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 122
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "bdo"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BIG": {
-          "type": "function",
-          "refID": 124,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 124
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "big"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BLOCKQUOTE": {
-          "type": "function",
-          "refID": 126,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 126
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "blockquote"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BODY": {
-          "type": "function",
-          "refID": 128,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 128
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "body"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BR": {
-          "type": "function",
-          "refID": 130,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 130
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "br"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "BUTTON": {
-          "type": "function",
-          "refID": 132,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 132
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "button"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "CAPTION": {
-          "type": "function",
-          "refID": 134,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 134
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "caption"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "CENTER": {
-          "type": "function",
-          "refID": 136,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 136
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "center"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "CITE": {
-          "type": "function",
-          "refID": 138,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 138
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "cite"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "CODE": {
-          "type": "function",
-          "refID": 140,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 140
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "code"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "COL": {
-          "type": "function",
-          "refID": 142,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 142
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "col"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "COLGROUP": {
-          "type": "function",
-          "refID": 144,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 144
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "colgroup"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DD": {
-          "type": "function",
-          "refID": 146,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 146
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "dd"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DEL": {
-          "type": "function",
-          "refID": 148,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 148
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "del"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DFN": {
-          "type": "function",
-          "refID": 150,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 150
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "dfn"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DIR": {
-          "type": "function",
-          "refID": 152,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 152
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "dir"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DIV": {
-          "type": "function",
-          "refID": 154,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 154
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "div"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DL": {
-          "type": "function",
-          "refID": 156,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 156
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "dl"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "DT": {
-          "type": "function",
-          "refID": 158,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 158
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "dt"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "EM": {
-          "type": "function",
-          "refID": 160,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 160
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "em"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "FIELDSET": {
-          "type": "function",
-          "refID": 162,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 162
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "fieldset"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "FONT": {
-          "type": "function",
-          "refID": 164,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 164
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "font"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "FORM": {
-          "type": "function",
-          "refID": 166,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 166
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "form"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "FRAME": {
-          "type": "function",
-          "refID": 168,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 168
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "frame"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "FRAMESET": {
-          "type": "function",
-          "refID": 170,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 170
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "frameset"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "H1": {
-          "type": "function",
-          "refID": 172,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 172
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "h1"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "H2": {
-          "type": "function",
-          "refID": 174,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 174
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "h2"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "H3": {
-          "type": "function",
-          "refID": 176,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 176
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "h3"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "H4": {
-          "type": "function",
-          "refID": 178,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 178
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "h4"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "H5": {
-          "type": "function",
-          "refID": 180,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 180
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "h5"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "H6": {
-          "type": "function",
-          "refID": 182,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 182
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "h6"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "HEAD": {
-          "type": "function",
-          "refID": 184,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 184
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "head"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "HR": {
-          "type": "function",
-          "refID": 186,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 186
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "hr"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "HTML": {
-          "type": "function",
-          "refID": 188,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 188
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "html"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "I": {
-          "type": "function",
-          "refID": 190,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 190
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "i"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "IFRAME": {
-          "type": "function",
-          "refID": 192,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 192
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "iframe"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "IMG": {
-          "type": "function",
-          "refID": 194,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 194
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "img"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "INPUT": {
-          "type": "function",
-          "refID": 196,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 196
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "input"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "INS": {
-          "type": "function",
-          "refID": 198,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 198
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "ins"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "ISINDEX": {
-          "type": "function",
-          "refID": 200,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 200
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "isindex"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "KBD": {
-          "type": "function",
-          "refID": 202,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 202
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "kbd"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "LABEL": {
-          "type": "function",
-          "refID": 204,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 204
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "label"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "LEGEND": {
-          "type": "function",
-          "refID": 206,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 206
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "legend"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "LI": {
-          "type": "function",
-          "refID": 208,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 208
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "li"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "LINK": {
-          "type": "function",
-          "refID": 210,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 210
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "link"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "MAP": {
-          "type": "function",
-          "refID": 212,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 212
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "map"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "MENU": {
-          "type": "function",
-          "refID": 214,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 214
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "menu"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "META": {
-          "type": "function",
-          "refID": 216,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 216
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "meta"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "NOFRAMES": {
-          "type": "function",
-          "refID": 218,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 218
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "noframes"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "NOSCRIPT": {
-          "type": "function",
-          "refID": 220,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 220
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "noscript"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "OBJECT": {
-          "type": "function",
-          "refID": 222,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 222
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "object"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "OL": {
-          "type": "function",
-          "refID": 224,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 224
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "ol"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "OPTGROUP": {
-          "type": "function",
-          "refID": 226,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 226
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "optgroup"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "OPTION": {
-          "type": "function",
-          "refID": 228,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 228
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "option"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "P": {
-          "type": "function",
-          "refID": 230,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 230
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "p"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "PARAM": {
-          "type": "function",
-          "refID": 232,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 232
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "param"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "PRE": {
-          "type": "function",
-          "refID": 234,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 234
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "pre"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "Q": {
-          "type": "function",
-          "refID": 236,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 236
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "q"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "S": {
-          "type": "function",
-          "refID": 238,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 238
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "s"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SAMP": {
-          "type": "function",
-          "refID": 240,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 240
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "samp"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SCRIPT": {
-          "type": "function",
-          "refID": 242,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 242
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "script"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SELECT": {
-          "type": "function",
-          "refID": 244,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 244
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "select"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SMALL": {
-          "type": "function",
-          "refID": 246,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 246
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "small"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SPAN": {
-          "type": "function",
-          "refID": 248,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 248
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "span"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "STRIKE": {
-          "type": "function",
-          "refID": 250,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 250
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "strike"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "STRONG": {
-          "type": "function",
-          "refID": 252,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 252
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "strong"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "STYLE": {
-          "type": "function",
-          "refID": 254,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 254
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "style"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SUB": {
-          "type": "function",
-          "refID": 256,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 256
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "sub"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "SUP": {
-          "type": "function",
-          "refID": 258,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 258
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "sup"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TABLE": {
-          "type": "function",
-          "refID": 260,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 260
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "table"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TBODY": {
-          "type": "function",
-          "refID": 262,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 262
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "tbody"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TD": {
-          "type": "function",
-          "refID": 264,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 264
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "td"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TEXTAREA": {
-          "type": "function",
-          "refID": 266,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 266
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "textarea"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TFOOT": {
-          "type": "function",
-          "refID": 268,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 268
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "tfoot"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TH": {
-          "type": "function",
-          "refID": 270,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 270
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "th"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "THEAD": {
-          "type": "function",
-          "refID": 272,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 272
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "thead"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TITLE": {
-          "type": "function",
-          "refID": 274,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 274
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "title"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TR": {
-          "type": "function",
-          "refID": 276,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 276
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "tr"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "TT": {
-          "type": "function",
-          "refID": 278,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 278
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "tt"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "U": {
-          "type": "function",
-          "refID": 280,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 280
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "u"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "UL": {
-          "type": "function",
-          "refID": 282,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 282
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "ul"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "VAR": {
-          "type": "function",
-          "refID": 284,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 284
-                },
-                "tagName": {
-                  "type": "constant",
-                  "value": "var"
-                },
-                "children": {
-                  "ref": 84
-                },
-                "htmljsType": {
-                  "ref": 82
-                }
-              }
-            }
-          }
-        },
-        "ARTICLE": {
-          "type": "function",
-          "refID": 286,
-          "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 286
                 },
                 "tagName": {
                   "type": "constant",
@@ -2910,13 +870,13 @@ var packageMetadata = {
         },
         "ASIDE": {
           "type": "function",
-          "refID": 288,
+          "refID": 118,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 288
+                  "ref": 118
                 },
                 "tagName": {
                   "type": "constant",
@@ -2934,13 +894,13 @@ var packageMetadata = {
         },
         "AUDIO": {
           "type": "function",
-          "refID": 290,
+          "refID": 120,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 290
+                  "ref": 120
                 },
                 "tagName": {
                   "type": "constant",
@@ -2956,15 +916,87 @@ var packageMetadata = {
             }
           }
         },
-        "BDI": {
+        "B": {
           "type": "function",
-          "refID": 292,
+          "refID": 122,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 292
+                  "ref": 122
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "b"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BASE": {
+          "type": "function",
+          "refID": 124,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 124
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "base"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BASEFONT": {
+          "type": "function",
+          "refID": 126,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 126
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "basefont"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BDI": {
+          "type": "function",
+          "refID": 128,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 128
                 },
                 "tagName": {
                   "type": "constant",
@@ -2980,15 +1012,159 @@ var packageMetadata = {
             }
           }
         },
-        "CANVAS": {
+        "BDO": {
           "type": "function",
-          "refID": 294,
+          "refID": 130,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 294
+                  "ref": 130
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "bdo"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BIG": {
+          "type": "function",
+          "refID": 132,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 132
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "big"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BLOCKQUOTE": {
+          "type": "function",
+          "refID": 134,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 134
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "blockquote"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BODY": {
+          "type": "function",
+          "refID": 136,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 136
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "body"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BR": {
+          "type": "function",
+          "refID": 138,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 138
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "br"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "BUTTON": {
+          "type": "function",
+          "refID": 140,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 140
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "button"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "CANVAS": {
+          "type": "function",
+          "refID": 142,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 142
                 },
                 "tagName": {
                   "type": "constant",
@@ -3004,15 +1180,159 @@ var packageMetadata = {
             }
           }
         },
-        "COMMAND": {
+        "CAPTION": {
           "type": "function",
-          "refID": 296,
+          "refID": 144,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 296
+                  "ref": 144
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "caption"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "CENTER": {
+          "type": "function",
+          "refID": 146,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 146
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "center"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "CITE": {
+          "type": "function",
+          "refID": 148,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 148
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "cite"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "CODE": {
+          "type": "function",
+          "refID": 150,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 150
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "code"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "COL": {
+          "type": "function",
+          "refID": 152,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 152
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "col"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "COLGROUP": {
+          "type": "function",
+          "refID": 154,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 154
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "colgroup"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "COMMAND": {
+          "type": "function",
+          "refID": 156,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 156
                 },
                 "tagName": {
                   "type": "constant",
@@ -3030,13 +1350,13 @@ var packageMetadata = {
         },
         "DATA": {
           "type": "function",
-          "refID": 298,
+          "refID": 158,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 298
+                  "ref": 158
                 },
                 "tagName": {
                   "type": "constant",
@@ -3054,13 +1374,13 @@ var packageMetadata = {
         },
         "DATAGRID": {
           "type": "function",
-          "refID": 300,
+          "refID": 160,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 300
+                  "ref": 160
                 },
                 "tagName": {
                   "type": "constant",
@@ -3078,13 +1398,13 @@ var packageMetadata = {
         },
         "DATALIST": {
           "type": "function",
-          "refID": 302,
+          "refID": 162,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 302
+                  "ref": 162
                 },
                 "tagName": {
                   "type": "constant",
@@ -3100,15 +1420,63 @@ var packageMetadata = {
             }
           }
         },
-        "DETAILS": {
+        "DD": {
           "type": "function",
-          "refID": 304,
+          "refID": 164,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 304
+                  "ref": 164
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "dd"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "DEL": {
+          "type": "function",
+          "refID": 166,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 166
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "del"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "DETAILS": {
+          "type": "function",
+          "refID": 168,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 168
                 },
                 "tagName": {
                   "type": "constant",
@@ -3124,15 +1492,159 @@ var packageMetadata = {
             }
           }
         },
-        "EMBED": {
+        "DFN": {
           "type": "function",
-          "refID": 306,
+          "refID": 170,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 306
+                  "ref": 170
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "dfn"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "DIR": {
+          "type": "function",
+          "refID": 172,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 172
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "dir"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "DIV": {
+          "type": "function",
+          "refID": 174,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 174
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "div"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "DL": {
+          "type": "function",
+          "refID": 176,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 176
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "dl"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "DT": {
+          "type": "function",
+          "refID": 178,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 178
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "dt"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "EM": {
+          "type": "function",
+          "refID": 180,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 180
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "em"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "EMBED": {
+          "type": "function",
+          "refID": 182,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 182
                 },
                 "tagName": {
                   "type": "constant",
@@ -3150,13 +1662,13 @@ var packageMetadata = {
         },
         "EVENTSOURCE": {
           "type": "function",
-          "refID": 308,
+          "refID": 184,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 308
+                  "ref": 184
                 },
                 "tagName": {
                   "type": "constant",
@@ -3172,15 +1684,39 @@ var packageMetadata = {
             }
           }
         },
-        "FIGCAPTION": {
+        "FIELDSET": {
           "type": "function",
-          "refID": 310,
+          "refID": 186,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 310
+                  "ref": 186
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "fieldset"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "FIGCAPTION": {
+          "type": "function",
+          "refID": 188,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 188
                 },
                 "tagName": {
                   "type": "constant",
@@ -3198,13 +1734,13 @@ var packageMetadata = {
         },
         "FIGURE": {
           "type": "function",
-          "refID": 312,
+          "refID": 190,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 312
+                  "ref": 190
                 },
                 "tagName": {
                   "type": "constant",
@@ -3220,15 +1756,39 @@ var packageMetadata = {
             }
           }
         },
-        "FOOTER": {
+        "FONT": {
           "type": "function",
-          "refID": 314,
+          "refID": 192,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 314
+                  "ref": 192
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "font"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "FOOTER": {
+          "type": "function",
+          "refID": 194,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 194
                 },
                 "tagName": {
                   "type": "constant",
@@ -3244,15 +1804,255 @@ var packageMetadata = {
             }
           }
         },
-        "HEADER": {
+        "FORM": {
           "type": "function",
-          "refID": 316,
+          "refID": 196,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 316
+                  "ref": 196
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "form"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "FRAME": {
+          "type": "function",
+          "refID": 198,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 198
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "frame"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "FRAMESET": {
+          "type": "function",
+          "refID": 200,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 200
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "frameset"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "H1": {
+          "type": "function",
+          "refID": 202,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 202
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "h1"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "H2": {
+          "type": "function",
+          "refID": 204,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 204
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "h2"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "H3": {
+          "type": "function",
+          "refID": 206,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 206
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "h3"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "H4": {
+          "type": "function",
+          "refID": 208,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 208
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "h4"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "H5": {
+          "type": "function",
+          "refID": 210,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 210
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "h5"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "H6": {
+          "type": "function",
+          "refID": 212,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 212
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "h6"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "HEAD": {
+          "type": "function",
+          "refID": 214,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 214
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "head"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "HEADER": {
+          "type": "function",
+          "refID": 216,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 216
                 },
                 "tagName": {
                   "type": "constant",
@@ -3270,13 +2070,13 @@ var packageMetadata = {
         },
         "HGROUP": {
           "type": "function",
-          "refID": 318,
+          "refID": 218,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 318
+                  "ref": 218
                 },
                 "tagName": {
                   "type": "constant",
@@ -3292,15 +2092,231 @@ var packageMetadata = {
             }
           }
         },
-        "KEYGEN": {
+        "HR": {
           "type": "function",
-          "refID": 320,
+          "refID": 220,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 320
+                  "ref": 220
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "hr"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "HTML": {
+          "type": "function",
+          "refID": 222,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 222
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "html"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "I": {
+          "type": "function",
+          "refID": 224,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 224
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "i"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "IFRAME": {
+          "type": "function",
+          "refID": 226,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 226
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "iframe"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "IMG": {
+          "type": "function",
+          "refID": 228,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 228
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "img"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "INPUT": {
+          "type": "function",
+          "refID": 230,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 230
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "input"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "INS": {
+          "type": "function",
+          "refID": 232,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 232
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "ins"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "ISINDEX": {
+          "type": "function",
+          "refID": 234,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 234
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "isindex"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "KBD": {
+          "type": "function",
+          "refID": 236,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 236
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "kbd"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "KEYGEN": {
+          "type": "function",
+          "refID": 238,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 238
                 },
                 "tagName": {
                   "type": "constant",
@@ -3316,15 +2332,159 @@ var packageMetadata = {
             }
           }
         },
-        "MARK": {
+        "LABEL": {
           "type": "function",
-          "refID": 322,
+          "refID": 240,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 322
+                  "ref": 240
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "label"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "LEGEND": {
+          "type": "function",
+          "refID": 242,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 242
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "legend"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "LI": {
+          "type": "function",
+          "refID": 244,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 244
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "li"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "LINK": {
+          "type": "function",
+          "refID": 246,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 246
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "link"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "MAIN": {
+          "type": "function",
+          "refID": 248,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 248
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "main"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "MAP": {
+          "type": "function",
+          "refID": 250,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 250
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "map"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "MARK": {
+          "type": "function",
+          "refID": 252,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 252
                 },
                 "tagName": {
                   "type": "constant",
@@ -3340,15 +2500,63 @@ var packageMetadata = {
             }
           }
         },
-        "METER": {
+        "MENU": {
           "type": "function",
-          "refID": 324,
+          "refID": 254,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 324
+                  "ref": 254
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "menu"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "META": {
+          "type": "function",
+          "refID": 256,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 256
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "meta"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "METER": {
+          "type": "function",
+          "refID": 258,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 258
                 },
                 "tagName": {
                   "type": "constant",
@@ -3366,13 +2574,13 @@ var packageMetadata = {
         },
         "NAV": {
           "type": "function",
-          "refID": 326,
+          "refID": 260,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 326
+                  "ref": 260
                 },
                 "tagName": {
                   "type": "constant",
@@ -3388,15 +2596,159 @@ var packageMetadata = {
             }
           }
         },
-        "OUTPUT": {
+        "NOFRAMES": {
           "type": "function",
-          "refID": 328,
+          "refID": 262,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 328
+                  "ref": 262
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "noframes"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "NOSCRIPT": {
+          "type": "function",
+          "refID": 264,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 264
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "noscript"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "OBJECT": {
+          "type": "function",
+          "refID": 266,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 266
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "object"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "OL": {
+          "type": "function",
+          "refID": 268,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 268
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "ol"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "OPTGROUP": {
+          "type": "function",
+          "refID": 270,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 270
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "optgroup"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "OPTION": {
+          "type": "function",
+          "refID": 272,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 272
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "option"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "OUTPUT": {
+          "type": "function",
+          "refID": 274,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 274
                 },
                 "tagName": {
                   "type": "constant",
@@ -3412,15 +2764,87 @@ var packageMetadata = {
             }
           }
         },
-        "PROGRESS": {
+        "P": {
           "type": "function",
-          "refID": 330,
+          "refID": 276,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 330
+                  "ref": 276
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "p"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "PARAM": {
+          "type": "function",
+          "refID": 278,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 278
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "param"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "PRE": {
+          "type": "function",
+          "refID": 280,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 280
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "pre"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "PROGRESS": {
+          "type": "function",
+          "refID": 282,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 282
                 },
                 "tagName": {
                   "type": "constant",
@@ -3436,19 +2860,19 @@ var packageMetadata = {
             }
           }
         },
-        "RUBY": {
+        "Q": {
           "type": "function",
-          "refID": 332,
+          "refID": 284,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 332
+                  "ref": 284
                 },
                 "tagName": {
                   "type": "constant",
-                  "value": "ruby"
+                  "value": "q"
                 },
                 "children": {
                   "ref": 84
@@ -3462,13 +2886,13 @@ var packageMetadata = {
         },
         "RP": {
           "type": "function",
-          "refID": 334,
+          "refID": 286,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 334
+                  "ref": 286
                 },
                 "tagName": {
                   "type": "constant",
@@ -3486,13 +2910,13 @@ var packageMetadata = {
         },
         "RT": {
           "type": "function",
-          "refID": 336,
+          "refID": 288,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 336
+                  "ref": 288
                 },
                 "tagName": {
                   "type": "constant",
@@ -3508,15 +2932,111 @@ var packageMetadata = {
             }
           }
         },
-        "SECTION": {
+        "RUBY": {
           "type": "function",
-          "refID": 338,
+          "refID": 290,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 338
+                  "ref": 290
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "ruby"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "S": {
+          "type": "function",
+          "refID": 292,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 292
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "s"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SAMP": {
+          "type": "function",
+          "refID": 294,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 294
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "samp"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SCRIPT": {
+          "type": "function",
+          "refID": 296,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 296
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "script"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SECTION": {
+          "type": "function",
+          "refID": 298,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 298
                 },
                 "tagName": {
                   "type": "constant",
@@ -3532,15 +3052,63 @@ var packageMetadata = {
             }
           }
         },
-        "SOURCE": {
+        "SELECT": {
           "type": "function",
-          "refID": 340,
+          "refID": 300,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 340
+                  "ref": 300
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "select"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SMALL": {
+          "type": "function",
+          "refID": 302,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 302
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "small"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SOURCE": {
+          "type": "function",
+          "refID": 304,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 304
                 },
                 "tagName": {
                   "type": "constant",
@@ -3556,15 +3124,135 @@ var packageMetadata = {
             }
           }
         },
-        "SUMMARY": {
+        "SPAN": {
           "type": "function",
-          "refID": 342,
+          "refID": 306,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 342
+                  "ref": 306
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "span"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "STRIKE": {
+          "type": "function",
+          "refID": 308,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 308
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "strike"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "STRONG": {
+          "type": "function",
+          "refID": 310,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 310
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "strong"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "STYLE": {
+          "type": "function",
+          "refID": 312,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 312
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "style"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SUB": {
+          "type": "function",
+          "refID": 314,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 314
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "sub"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "SUMMARY": {
+          "type": "function",
+          "refID": 316,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 316
                 },
                 "tagName": {
                   "type": "constant",
@@ -3580,15 +3268,207 @@ var packageMetadata = {
             }
           }
         },
-        "TIME": {
+        "SUP": {
           "type": "function",
-          "refID": 344,
+          "refID": 318,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 344
+                  "ref": 318
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "sup"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TABLE": {
+          "type": "function",
+          "refID": 320,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 320
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "table"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TBODY": {
+          "type": "function",
+          "refID": 322,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 322
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "tbody"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TD": {
+          "type": "function",
+          "refID": 324,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 324
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "td"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TEXTAREA": {
+          "type": "function",
+          "refID": 326,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 326
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "textarea"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TFOOT": {
+          "type": "function",
+          "refID": 328,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 328
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "tfoot"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TH": {
+          "type": "function",
+          "refID": 330,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 330
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "th"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "THEAD": {
+          "type": "function",
+          "refID": 332,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 332
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "thead"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TIME": {
+          "type": "function",
+          "refID": 334,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 334
                 },
                 "tagName": {
                   "type": "constant",
@@ -3604,15 +3484,63 @@ var packageMetadata = {
             }
           }
         },
-        "TRACK": {
+        "TITLE": {
           "type": "function",
-          "refID": 346,
+          "refID": 336,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 346
+                  "ref": 336
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "title"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TR": {
+          "type": "function",
+          "refID": 338,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 338
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "tr"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "TRACK": {
+          "type": "function",
+          "refID": 340,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 340
                 },
                 "tagName": {
                   "type": "constant",
@@ -3628,7 +3556,79 @@ var packageMetadata = {
             }
           }
         },
-        "VIDEO": {
+        "TT": {
+          "type": "function",
+          "refID": 342,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 342
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "tt"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "U": {
+          "type": "function",
+          "refID": 344,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 344
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "u"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "UL": {
+          "type": "function",
+          "refID": 346,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 346
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "ul"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "VAR": {
           "type": "function",
           "refID": 348,
           "members": {
@@ -3637,6 +3637,30 @@ var packageMetadata = {
               "members": {
                 "constructor": {
                   "ref": 348
+                },
+                "tagName": {
+                  "type": "constant",
+                  "value": "var"
+                },
+                "children": {
+                  "ref": 84
+                },
+                "htmljsType": {
+                  "ref": 82
+                }
+              }
+            }
+          }
+        },
+        "VIDEO": {
+          "type": "function",
+          "refID": 350,
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 350
                 },
                 "tagName": {
                   "type": "constant",
@@ -3654,13 +3678,13 @@ var packageMetadata = {
         },
         "WBR": {
           "type": "function",
-          "refID": 350,
+          "refID": 352,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 350
+                  "ref": 352
                 },
                 "tagName": {
                   "type": "constant",
@@ -3678,13 +3702,13 @@ var packageMetadata = {
         },
         "ALTGLYPH": {
           "type": "function",
-          "refID": 352,
+          "refID": 354,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 352
+                  "ref": 354
                 },
                 "tagName": {
                   "type": "constant",
@@ -3702,13 +3726,13 @@ var packageMetadata = {
         },
         "ALTGLYPHDEF": {
           "type": "function",
-          "refID": 354,
+          "refID": 356,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 354
+                  "ref": 356
                 },
                 "tagName": {
                   "type": "constant",
@@ -3726,13 +3750,13 @@ var packageMetadata = {
         },
         "ALTGLYPHITEM": {
           "type": "function",
-          "refID": 356,
+          "refID": 358,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 356
+                  "ref": 358
                 },
                 "tagName": {
                   "type": "constant",
@@ -3750,13 +3774,13 @@ var packageMetadata = {
         },
         "ANIMATE": {
           "type": "function",
-          "refID": 358,
+          "refID": 360,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 358
+                  "ref": 360
                 },
                 "tagName": {
                   "type": "constant",
@@ -3774,13 +3798,13 @@ var packageMetadata = {
         },
         "ANIMATECOLOR": {
           "type": "function",
-          "refID": 360,
+          "refID": 362,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 360
+                  "ref": 362
                 },
                 "tagName": {
                   "type": "constant",
@@ -3798,13 +3822,13 @@ var packageMetadata = {
         },
         "ANIMATEMOTION": {
           "type": "function",
-          "refID": 362,
+          "refID": 364,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 362
+                  "ref": 364
                 },
                 "tagName": {
                   "type": "constant",
@@ -3822,13 +3846,13 @@ var packageMetadata = {
         },
         "ANIMATETRANSFORM": {
           "type": "function",
-          "refID": 364,
+          "refID": 366,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 364
+                  "ref": 366
                 },
                 "tagName": {
                   "type": "constant",
@@ -3846,13 +3870,13 @@ var packageMetadata = {
         },
         "CIRCLE": {
           "type": "function",
-          "refID": 366,
+          "refID": 368,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 366
+                  "ref": 368
                 },
                 "tagName": {
                   "type": "constant",
@@ -3870,13 +3894,13 @@ var packageMetadata = {
         },
         "CLIPPATH": {
           "type": "function",
-          "refID": 368,
+          "refID": 370,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 368
+                  "ref": 370
                 },
                 "tagName": {
                   "type": "constant",
@@ -3894,13 +3918,13 @@ var packageMetadata = {
         },
         "COLOR_PROFILE": {
           "type": "function",
-          "refID": 370,
+          "refID": 372,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 370
+                  "ref": 372
                 },
                 "tagName": {
                   "type": "constant",
@@ -3918,13 +3942,13 @@ var packageMetadata = {
         },
         "CURSOR": {
           "type": "function",
-          "refID": 372,
+          "refID": 374,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 372
+                  "ref": 374
                 },
                 "tagName": {
                   "type": "constant",
@@ -3942,13 +3966,13 @@ var packageMetadata = {
         },
         "DEFS": {
           "type": "function",
-          "refID": 374,
+          "refID": 376,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 374
+                  "ref": 376
                 },
                 "tagName": {
                   "type": "constant",
@@ -3966,13 +3990,13 @@ var packageMetadata = {
         },
         "DESC": {
           "type": "function",
-          "refID": 376,
+          "refID": 378,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 376
+                  "ref": 378
                 },
                 "tagName": {
                   "type": "constant",
@@ -3990,13 +4014,13 @@ var packageMetadata = {
         },
         "ELLIPSE": {
           "type": "function",
-          "refID": 378,
+          "refID": 380,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 378
+                  "ref": 380
                 },
                 "tagName": {
                   "type": "constant",
@@ -4014,13 +4038,13 @@ var packageMetadata = {
         },
         "FEBLEND": {
           "type": "function",
-          "refID": 380,
+          "refID": 382,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 380
+                  "ref": 382
                 },
                 "tagName": {
                   "type": "constant",
@@ -4038,13 +4062,13 @@ var packageMetadata = {
         },
         "FECOLORMATRIX": {
           "type": "function",
-          "refID": 382,
+          "refID": 384,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 382
+                  "ref": 384
                 },
                 "tagName": {
                   "type": "constant",
@@ -4062,13 +4086,13 @@ var packageMetadata = {
         },
         "FECOMPONENTTRANSFER": {
           "type": "function",
-          "refID": 384,
+          "refID": 386,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 384
+                  "ref": 386
                 },
                 "tagName": {
                   "type": "constant",
@@ -4086,13 +4110,13 @@ var packageMetadata = {
         },
         "FECOMPOSITE": {
           "type": "function",
-          "refID": 386,
+          "refID": 388,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 386
+                  "ref": 388
                 },
                 "tagName": {
                   "type": "constant",
@@ -4110,13 +4134,13 @@ var packageMetadata = {
         },
         "FECONVOLVEMATRIX": {
           "type": "function",
-          "refID": 388,
+          "refID": 390,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 388
+                  "ref": 390
                 },
                 "tagName": {
                   "type": "constant",
@@ -4134,13 +4158,13 @@ var packageMetadata = {
         },
         "FEDIFFUSELIGHTING": {
           "type": "function",
-          "refID": 390,
+          "refID": 392,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 390
+                  "ref": 392
                 },
                 "tagName": {
                   "type": "constant",
@@ -4158,13 +4182,13 @@ var packageMetadata = {
         },
         "FEDISPLACEMENTMAP": {
           "type": "function",
-          "refID": 392,
+          "refID": 394,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 392
+                  "ref": 394
                 },
                 "tagName": {
                   "type": "constant",
@@ -4182,13 +4206,13 @@ var packageMetadata = {
         },
         "FEDISTANTLIGHT": {
           "type": "function",
-          "refID": 394,
+          "refID": 396,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 394
+                  "ref": 396
                 },
                 "tagName": {
                   "type": "constant",
@@ -4206,13 +4230,13 @@ var packageMetadata = {
         },
         "FEFLOOD": {
           "type": "function",
-          "refID": 396,
+          "refID": 398,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 396
+                  "ref": 398
                 },
                 "tagName": {
                   "type": "constant",
@@ -4230,13 +4254,13 @@ var packageMetadata = {
         },
         "FEFUNCA": {
           "type": "function",
-          "refID": 398,
+          "refID": 400,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 398
+                  "ref": 400
                 },
                 "tagName": {
                   "type": "constant",
@@ -4254,13 +4278,13 @@ var packageMetadata = {
         },
         "FEFUNCB": {
           "type": "function",
-          "refID": 400,
+          "refID": 402,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 400
+                  "ref": 402
                 },
                 "tagName": {
                   "type": "constant",
@@ -4278,13 +4302,13 @@ var packageMetadata = {
         },
         "FEFUNCG": {
           "type": "function",
-          "refID": 402,
+          "refID": 404,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 402
+                  "ref": 404
                 },
                 "tagName": {
                   "type": "constant",
@@ -4302,13 +4326,13 @@ var packageMetadata = {
         },
         "FEFUNCR": {
           "type": "function",
-          "refID": 404,
+          "refID": 406,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 404
+                  "ref": 406
                 },
                 "tagName": {
                   "type": "constant",
@@ -4326,13 +4350,13 @@ var packageMetadata = {
         },
         "FEGAUSSIANBLUR": {
           "type": "function",
-          "refID": 406,
+          "refID": 408,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 406
+                  "ref": 408
                 },
                 "tagName": {
                   "type": "constant",
@@ -4350,13 +4374,13 @@ var packageMetadata = {
         },
         "FEIMAGE": {
           "type": "function",
-          "refID": 408,
+          "refID": 410,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 408
+                  "ref": 410
                 },
                 "tagName": {
                   "type": "constant",
@@ -4374,13 +4398,13 @@ var packageMetadata = {
         },
         "FEMERGE": {
           "type": "function",
-          "refID": 410,
+          "refID": 412,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 410
+                  "ref": 412
                 },
                 "tagName": {
                   "type": "constant",
@@ -4398,13 +4422,13 @@ var packageMetadata = {
         },
         "FEMERGENODE": {
           "type": "function",
-          "refID": 412,
+          "refID": 414,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 412
+                  "ref": 414
                 },
                 "tagName": {
                   "type": "constant",
@@ -4422,13 +4446,13 @@ var packageMetadata = {
         },
         "FEMORPHOLOGY": {
           "type": "function",
-          "refID": 414,
+          "refID": 416,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 414
+                  "ref": 416
                 },
                 "tagName": {
                   "type": "constant",
@@ -4446,13 +4470,13 @@ var packageMetadata = {
         },
         "FEOFFSET": {
           "type": "function",
-          "refID": 416,
+          "refID": 418,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 416
+                  "ref": 418
                 },
                 "tagName": {
                   "type": "constant",
@@ -4470,13 +4494,13 @@ var packageMetadata = {
         },
         "FEPOINTLIGHT": {
           "type": "function",
-          "refID": 418,
+          "refID": 420,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 418
+                  "ref": 420
                 },
                 "tagName": {
                   "type": "constant",
@@ -4494,13 +4518,13 @@ var packageMetadata = {
         },
         "FESPECULARLIGHTING": {
           "type": "function",
-          "refID": 420,
+          "refID": 422,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 420
+                  "ref": 422
                 },
                 "tagName": {
                   "type": "constant",
@@ -4518,13 +4542,13 @@ var packageMetadata = {
         },
         "FESPOTLIGHT": {
           "type": "function",
-          "refID": 422,
+          "refID": 424,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 422
+                  "ref": 424
                 },
                 "tagName": {
                   "type": "constant",
@@ -4542,13 +4566,13 @@ var packageMetadata = {
         },
         "FETILE": {
           "type": "function",
-          "refID": 424,
+          "refID": 426,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 424
+                  "ref": 426
                 },
                 "tagName": {
                   "type": "constant",
@@ -4566,13 +4590,13 @@ var packageMetadata = {
         },
         "FETURBULENCE": {
           "type": "function",
-          "refID": 426,
+          "refID": 428,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 426
+                  "ref": 428
                 },
                 "tagName": {
                   "type": "constant",
@@ -4590,13 +4614,13 @@ var packageMetadata = {
         },
         "FILTER": {
           "type": "function",
-          "refID": 428,
+          "refID": 430,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 428
+                  "ref": 430
                 },
                 "tagName": {
                   "type": "constant",
@@ -4614,13 +4638,13 @@ var packageMetadata = {
         },
         "FONT_FACE": {
           "type": "function",
-          "refID": 430,
+          "refID": 432,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 430
+                  "ref": 432
                 },
                 "tagName": {
                   "type": "constant",
@@ -4638,13 +4662,13 @@ var packageMetadata = {
         },
         "FONT_FACE_FORMAT": {
           "type": "function",
-          "refID": 432,
+          "refID": 434,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 432
+                  "ref": 434
                 },
                 "tagName": {
                   "type": "constant",
@@ -4662,13 +4686,13 @@ var packageMetadata = {
         },
         "FONT_FACE_NAME": {
           "type": "function",
-          "refID": 434,
+          "refID": 436,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 434
+                  "ref": 436
                 },
                 "tagName": {
                   "type": "constant",
@@ -4686,13 +4710,13 @@ var packageMetadata = {
         },
         "FONT_FACE_SRC": {
           "type": "function",
-          "refID": 436,
+          "refID": 438,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 436
+                  "ref": 438
                 },
                 "tagName": {
                   "type": "constant",
@@ -4710,13 +4734,13 @@ var packageMetadata = {
         },
         "FONT_FACE_URI": {
           "type": "function",
-          "refID": 438,
+          "refID": 440,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 438
+                  "ref": 440
                 },
                 "tagName": {
                   "type": "constant",
@@ -4734,13 +4758,13 @@ var packageMetadata = {
         },
         "FOREIGNOBJECT": {
           "type": "function",
-          "refID": 440,
+          "refID": 442,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 440
+                  "ref": 442
                 },
                 "tagName": {
                   "type": "constant",
@@ -4758,13 +4782,13 @@ var packageMetadata = {
         },
         "G": {
           "type": "function",
-          "refID": 442,
+          "refID": 444,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 442
+                  "ref": 444
                 },
                 "tagName": {
                   "type": "constant",
@@ -4782,13 +4806,13 @@ var packageMetadata = {
         },
         "GLYPH": {
           "type": "function",
-          "refID": 444,
+          "refID": 446,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 444
+                  "ref": 446
                 },
                 "tagName": {
                   "type": "constant",
@@ -4806,13 +4830,13 @@ var packageMetadata = {
         },
         "GLYPHREF": {
           "type": "function",
-          "refID": 446,
+          "refID": 448,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 446
+                  "ref": 448
                 },
                 "tagName": {
                   "type": "constant",
@@ -4830,13 +4854,13 @@ var packageMetadata = {
         },
         "HKERN": {
           "type": "function",
-          "refID": 448,
+          "refID": 450,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 448
+                  "ref": 450
                 },
                 "tagName": {
                   "type": "constant",
@@ -4854,13 +4878,13 @@ var packageMetadata = {
         },
         "IMAGE": {
           "type": "function",
-          "refID": 450,
+          "refID": 452,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 450
+                  "ref": 452
                 },
                 "tagName": {
                   "type": "constant",
@@ -4878,13 +4902,13 @@ var packageMetadata = {
         },
         "LINE": {
           "type": "function",
-          "refID": 452,
+          "refID": 454,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 452
+                  "ref": 454
                 },
                 "tagName": {
                   "type": "constant",
@@ -4902,13 +4926,13 @@ var packageMetadata = {
         },
         "LINEARGRADIENT": {
           "type": "function",
-          "refID": 454,
+          "refID": 456,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 454
+                  "ref": 456
                 },
                 "tagName": {
                   "type": "constant",
@@ -4926,13 +4950,13 @@ var packageMetadata = {
         },
         "MARKER": {
           "type": "function",
-          "refID": 456,
+          "refID": 458,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 456
+                  "ref": 458
                 },
                 "tagName": {
                   "type": "constant",
@@ -4950,13 +4974,13 @@ var packageMetadata = {
         },
         "MASK": {
           "type": "function",
-          "refID": 458,
+          "refID": 460,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 458
+                  "ref": 460
                 },
                 "tagName": {
                   "type": "constant",
@@ -4974,13 +4998,13 @@ var packageMetadata = {
         },
         "METADATA": {
           "type": "function",
-          "refID": 460,
+          "refID": 462,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 460
+                  "ref": 462
                 },
                 "tagName": {
                   "type": "constant",
@@ -4998,13 +5022,13 @@ var packageMetadata = {
         },
         "MISSING_GLYPH": {
           "type": "function",
-          "refID": 462,
+          "refID": 464,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 462
+                  "ref": 464
                 },
                 "tagName": {
                   "type": "constant",
@@ -5022,13 +5046,13 @@ var packageMetadata = {
         },
         "PATH": {
           "type": "function",
-          "refID": 464,
+          "refID": 466,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 464
+                  "ref": 466
                 },
                 "tagName": {
                   "type": "constant",
@@ -5046,13 +5070,13 @@ var packageMetadata = {
         },
         "PATTERN": {
           "type": "function",
-          "refID": 466,
+          "refID": 468,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 466
+                  "ref": 468
                 },
                 "tagName": {
                   "type": "constant",
@@ -5070,13 +5094,13 @@ var packageMetadata = {
         },
         "POLYGON": {
           "type": "function",
-          "refID": 468,
+          "refID": 470,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 468
+                  "ref": 470
                 },
                 "tagName": {
                   "type": "constant",
@@ -5094,13 +5118,13 @@ var packageMetadata = {
         },
         "POLYLINE": {
           "type": "function",
-          "refID": 470,
+          "refID": 472,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 470
+                  "ref": 472
                 },
                 "tagName": {
                   "type": "constant",
@@ -5118,13 +5142,13 @@ var packageMetadata = {
         },
         "RADIALGRADIENT": {
           "type": "function",
-          "refID": 472,
+          "refID": 474,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 472
+                  "ref": 474
                 },
                 "tagName": {
                   "type": "constant",
@@ -5142,13 +5166,13 @@ var packageMetadata = {
         },
         "RECT": {
           "type": "function",
-          "refID": 474,
+          "refID": 476,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 474
+                  "ref": 476
                 },
                 "tagName": {
                   "type": "constant",
@@ -5166,13 +5190,13 @@ var packageMetadata = {
         },
         "SET": {
           "type": "function",
-          "refID": 476,
+          "refID": 478,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 476
+                  "ref": 478
                 },
                 "tagName": {
                   "type": "constant",
@@ -5190,13 +5214,13 @@ var packageMetadata = {
         },
         "STOP": {
           "type": "function",
-          "refID": 478,
+          "refID": 480,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 478
+                  "ref": 480
                 },
                 "tagName": {
                   "type": "constant",
@@ -5214,13 +5238,13 @@ var packageMetadata = {
         },
         "SVG": {
           "type": "function",
-          "refID": 480,
+          "refID": 482,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 480
+                  "ref": 482
                 },
                 "tagName": {
                   "type": "constant",
@@ -5238,13 +5262,13 @@ var packageMetadata = {
         },
         "SWITCH": {
           "type": "function",
-          "refID": 482,
+          "refID": 484,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 482
+                  "ref": 484
                 },
                 "tagName": {
                   "type": "constant",
@@ -5262,13 +5286,13 @@ var packageMetadata = {
         },
         "SYMBOL": {
           "type": "function",
-          "refID": 484,
+          "refID": 486,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 484
+                  "ref": 486
                 },
                 "tagName": {
                   "type": "constant",
@@ -5286,13 +5310,13 @@ var packageMetadata = {
         },
         "TEXT": {
           "type": "function",
-          "refID": 486,
+          "refID": 488,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 486
+                  "ref": 488
                 },
                 "tagName": {
                   "type": "constant",
@@ -5310,13 +5334,13 @@ var packageMetadata = {
         },
         "TEXTPATH": {
           "type": "function",
-          "refID": 488,
+          "refID": 490,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 488
+                  "ref": 490
                 },
                 "tagName": {
                   "type": "constant",
@@ -5334,13 +5358,13 @@ var packageMetadata = {
         },
         "TREF": {
           "type": "function",
-          "refID": 490,
+          "refID": 492,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 490
+                  "ref": 492
                 },
                 "tagName": {
                   "type": "constant",
@@ -5358,13 +5382,13 @@ var packageMetadata = {
         },
         "TSPAN": {
           "type": "function",
-          "refID": 492,
+          "refID": 494,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 492
+                  "ref": 494
                 },
                 "tagName": {
                   "type": "constant",
@@ -5382,13 +5406,13 @@ var packageMetadata = {
         },
         "USE": {
           "type": "function",
-          "refID": 494,
+          "refID": 496,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 494
+                  "ref": 496
                 },
                 "tagName": {
                   "type": "constant",
@@ -5406,13 +5430,13 @@ var packageMetadata = {
         },
         "VIEW": {
           "type": "function",
-          "refID": 496,
+          "refID": 498,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 496
+                  "ref": 498
                 },
                 "tagName": {
                   "type": "constant",
@@ -5430,13 +5454,13 @@ var packageMetadata = {
         },
         "VKERN": {
           "type": "function",
-          "refID": 498,
+          "refID": 500,
           "members": {
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 498
+                  "ref": 500
                 },
                 "tagName": {
                   "type": "constant",
@@ -5457,13 +5481,13 @@ var packageMetadata = {
           "members": {
             "htmljsType": {
               "type": "array",
-              "refID": 501
+              "refID": 503
             },
             "prototype": {
               "type": "object",
               "members": {
                 "htmljsType": {
-                  "ref": 501
+                  "ref": 503
                 }
               }
             }
@@ -5474,13 +5498,13 @@ var packageMetadata = {
           "members": {
             "htmljsType": {
               "type": "array",
-              "refID": 504
+              "refID": 506
             },
             "prototype": {
               "type": "object",
               "members": {
                 "htmljsType": {
-                  "ref": 504
+                  "ref": 506
                 }
               }
             }
@@ -5491,13 +5515,13 @@ var packageMetadata = {
           "members": {
             "htmljsType": {
               "type": "array",
-              "refID": 507
+              "refID": 509
             },
             "prototype": {
               "type": "object",
               "members": {
                 "htmljsType": {
-                  "ref": 507
+                  "ref": 509
                 }
               }
             }
@@ -5744,34 +5768,6 @@ var packageMetadata = {
           "type": "function"
         }
       }
-    }
-  },
-  "minifiers": {
-    "CssTools": {
-      "type": "object",
-      "members": {
-        "parseCss": {
-          "type": "function"
-        },
-        "stringifyCss": {
-          "type": "function"
-        },
-        "minifyCss": {
-          "type": "function"
-        },
-        "minifyCssAst": {
-          "type": "function"
-        },
-        "mergeCssAsts": {
-          "type": "function"
-        },
-        "rewriteCssUrls": {
-          "type": "function"
-        }
-      }
-    },
-    "UglifyJSMinify": {
-      "type": "function"
     }
   },
   "spacebars-compiler": {
@@ -7016,7 +7012,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "29cacf3a26faee749de9af49eaa28d24245141b6"
+                  "value": "36d7578a93c713139b3e18ebde06143612295414"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7225,6 +7221,9 @@ var packageMetadata = {
         "identifyBrowser": {
           "type": "function"
         },
+        "generateBoilerplateInstance": {
+          "type": "function"
+        },
         "staticFilesMiddleware": {
           "type": "function"
         },
@@ -7278,7 +7277,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/012a26290d9cb731a3b52b396e571c8159d11236.map"
+                  "value": "/packages/61916b1060b33931a21f104fbffb67c2f3d493c5.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7286,7 +7285,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/012a26290d9cb731a3b52b396e571c8159d11236.map": {
+            "/packages/61916b1060b33931a21f104fbffb67c2f3d493c5.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7408,7 +7407,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/92c60ae92333f52459da974d9158da7fedeb6375.map"
+                  "value": "/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7416,7 +7415,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/92c60ae92333f52459da974d9158da7fedeb6375.map": {
+            "/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7616,7 +7615,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map"
+                  "value": "/packages/9adf0102ce60b3df01914155826e1661f636e91d.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7624,7 +7623,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map": {
+            "/packages/9adf0102ce60b3df01914155826e1661f636e91d.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7642,7 +7641,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map"
+                  "value": "/packages/1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7650,7 +7649,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map": {
+            "/packages/1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7954,7 +7953,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map"
+                  "value": "/packages/12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7962,7 +7961,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map": {
+            "/packages/12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7980,7 +7979,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/f267b683007ca477629c166b4bd43499e3122351.map"
+                  "value": "/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7988,7 +7987,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/f267b683007ca477629c166b4bd43499e3122351.map": {
+            "/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8084,7 +8083,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map"
+                  "value": "/packages/539b5fc23cf5e63bc8e324543a1026b138316a8c.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8092,7 +8091,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map": {
+            "/packages/539b5fc23cf5e63bc8e324543a1026b138316a8c.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8162,7 +8161,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map"
+                  "value": "/packages/77c0809654ee3a10dcd5a4f961fb1437e7957d33.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8170,7 +8169,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map": {
+            "/packages/77c0809654ee3a10dcd5a4f961fb1437e7957d33.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8188,7 +8187,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map"
+                  "value": "/packages/599ba307216da826d8b335332ebcc9a497a369a0.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8196,7 +8195,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map": {
+            "/packages/599ba307216da826d8b335332ebcc9a497a369a0.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8266,7 +8265,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map"
+                  "value": "/packages/8f5f07408181c410b8a9a73386eec5ab76a7c91f.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8274,7 +8273,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map": {
+            "/packages/8f5f07408181c410b8a9a73386eec5ab76a7c91f.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8344,7 +8343,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/94972067650078763eca7f54b72598624e0d8b9d.map"
+                  "value": "/packages/6ed32803c332f93f65e36a195f42e58a62ed028d.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8352,7 +8351,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/94972067650078763eca7f54b72598624e0d8b9d.map": {
+            "/packages/6ed32803c332f93f65e36a195f42e58a62ed028d.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8422,7 +8421,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map"
+                  "value": "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8430,7 +8429,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map": {
+            "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8448,7 +8447,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/8a1852202152d162cae0dd6a7e27f32d3a595dff.map"
+                  "value": "/packages/7d11f8366dde05ebf22a1a391f7a39de023df59c.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8456,7 +8455,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/8a1852202152d162cae0dd6a7e27f32d3a595dff.map": {
+            "/packages/7d11f8366dde05ebf22a1a391f7a39de023df59c.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8500,7 +8499,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/724142103f86896bf7ab0a57672b34086f989b24.map"
+                  "value": "/packages/aef74b5fc84ea5cc2da87963bf496cfe692fbebb.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8508,7 +8507,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/724142103f86896bf7ab0a57672b34086f989b24.map": {
+            "/packages/aef74b5fc84ea5cc2da87963bf496cfe692fbebb.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8578,7 +8577,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/0245f1984f8f7e3619540cf7a01541ce0af52355.map"
+                  "value": "/packages/3f63ba659f3605b965fb3f3aa23f784e1e29c95b.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8586,7 +8585,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/0245f1984f8f7e3619540cf7a01541ce0af52355.map": {
+            "/packages/3f63ba659f3605b965fb3f3aa23f784e1e29c95b.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8751,6 +8750,58 @@ var packageMetadata = {
                 }
               }
             },
+            "/packages/nemo64_bootstrap-data.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/5668c42202b40f6c6ea45d87def47b9c6ced760c.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/5668c42202b40f6c6ea45d87def47b9c6ced760c.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data.js.map"
+                }
+              }
+            },
+            "/packages/nemo64_bootstrap.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/ec67e21097838440b595b9cec9f3aca5493efadb.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/ec67e21097838440b595b9cec9f3aca5493efadb.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap.js.map"
+                }
+              }
+            },
             "/packages/webapp.js": {
               "type": "object",
               "members": {
@@ -8838,7 +8889,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/cb20740019f26bdca2faa89ba9c973f618118521.map"
+                  "value": "/packages/3c496d2950151d744a8574297b46d2763a123bdf.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8846,12 +8897,38 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/cb20740019f26bdca2faa89ba9c973f618118521.map": {
+            "/packages/3c496d2950151d744a8574297b46d2763a123bdf.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
+                }
+              }
+            },
+            "/packages/launch-screen.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/launch-screen.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map"
                 }
               }
             },
@@ -8935,16 +9012,16 @@ var packageMetadata = {
                 }
               }
             },
-            "/2f5cae3f36c607bb36b2902a8850a20a8be45758.css": {
+            "/f8a0ed422ca17333078602dddc865ea3cd0c2a50.css": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/2f5cae3f36c607bb36b2902a8850a20a8be45758.css"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/f8a0ed422ca17333078602dddc865ea3cd0c2a50.css"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/2f5cae3f36c607bb36b2902a8850a20a8be45758.map"
+                  "value": "/f8a0ed422ca17333078602dddc865ea3cd0c2a50.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8952,21 +9029,21 @@ var packageMetadata = {
                 }
               }
             },
-            "/2f5cae3f36c607bb36b2902a8850a20a8be45758.map": {
+            "/f8a0ed422ca17333078602dddc865ea3cd0c2a50.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/2f5cae3f36c607bb36b2902a8850a20a8be45758.css.map"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/f8a0ed422ca17333078602dddc865ea3cd0c2a50.css.map"
                 }
               }
             },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot": {
+            "/packages/velocity_html-reporter/lib/velocity_logo.svg": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_logo.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8977,12 +9054,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf": {
+            "/packages/velocity_html-reporter/lib/velocity_cog.svg": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_cog.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -8993,44 +9070,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff": {
+            "/packages/velocity_html-reporter/lib/icon-time.png": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/spinner.gif": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/icon-time.png"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9063,6 +9108,70 @@ var packageMetadata = {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/bootstrap/img/glyphicons-halflings-white.png"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "asset"
+                }
+              }
+            },
+            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "asset"
+                }
+              }
+            },
+            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "asset"
+                }
+              }
+            },
+            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf"
+                },
+                "sourceMapUrl": {
+                  "type": "undefined"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "asset"
+                }
+              }
+            },
+            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/home/kristel/Tarkvaratehnika/kalendermarkmik2/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9222,7 +9331,7 @@ var packageMetadata = {
               "members": {
                 "content": {
                   "type": "constant",
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?acbf201309f09f6882baaec965d067342bfdf2d3\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/acbf201309f09f6882baaec965d067342bfdf2d3.map\",\"size\":552978,\"hash\":\"acbf201309f09f6882baaec965d067342bfdf2d3\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?94972067650078763eca7f54b72598624e0d8b9d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/94972067650078763eca7f54b72598624e0d8b9d.map\",\"size\":96808,\"hash\":\"94972067650078763eca7f54b72598624e0d8b9d\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/oauth.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/oauth.js?8a1852202152d162cae0dd6a7e27f32d3a595dff\",\"sourceMap\":\"packages/oauth.js.map\",\"sourceMapUrl\":\"/packages/8a1852202152d162cae0dd6a7e27f32d3a595dff.map\",\"size\":27509,\"hash\":\"8a1852202152d162cae0dd6a7e27f32d3a595dff\"},{\"path\":\"packages/accounts-oauth.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-oauth.js?e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7\",\"sourceMap\":\"packages/accounts-oauth.js.map\",\"sourceMapUrl\":\"/packages/e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7.map\",\"size\":15783,\"hash\":\"e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7\"},{\"path\":\"packages/accounts-ui-unstyled.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui-unstyled.js?724142103f86896bf7ab0a57672b34086f989b24\",\"sourceMap\":\"packages/accounts-ui-unstyled.js.map\",\"sourceMapUrl\":\"/packages/724142103f86896bf7ab0a57672b34086f989b24.map\",\"size\":241869,\"hash\":\"724142103f86896bf7ab0a57672b34086f989b24\"},{\"path\":\"packages/accounts-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui.js?1ff79db616cce9b320fe8aed6103eded31248467\",\"sourceMap\":\"packages/accounts-ui.js.map\",\"sourceMapUrl\":\"/packages/1ff79db616cce9b320fe8aed6103eded31248467.map\",\"size\":1346,\"hash\":\"1ff79db616cce9b320fe8aed6103eded31248467\"},{\"path\":\"packages/oauth2.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/oauth2.js?5fa58098b89a1467037a0b8eb4b17ad33b72cf07\",\"sourceMap\":\"packages/oauth2.js.map\",\"sourceMapUrl\":\"/packages/5fa58098b89a1467037a0b8eb4b17ad33b72cf07.map\",\"size\":1436,\"hash\":\"5fa58098b89a1467037a0b8eb4b17ad33b72cf07\"},{\"path\":\"packages/facebook.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/facebook.js?0245f1984f8f7e3619540cf7a01541ce0af52355\",\"sourceMap\":\"packages/facebook.js.map\",\"sourceMapUrl\":\"/packages/0245f1984f8f7e3619540cf7a01541ce0af52355.map\",\"size\":12038,\"hash\":\"0245f1984f8f7e3619540cf7a01541ce0af52355\"},{\"path\":\"packages/accounts-facebook.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-facebook.js?9e890f917b8ec3c3ea39544407a7e982dbc6d5ae\",\"sourceMap\":\"packages/accounts-facebook.js.map\",\"sourceMapUrl\":\"/packages/9e890f917b8ec3c3ea39544407a7e982dbc6d5ae.map\",\"size\":5102,\"hash\":\"9e890f917b8ec3c3ea39544407a7e982dbc6d5ae\"},{\"path\":\"packages/velocity_shim.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_shim.js?2f276e0b37f727eab3ae66b3af5b8a97abf70da3\",\"sourceMap\":\"packages/velocity_shim.js.map\",\"sourceMapUrl\":\"/packages/2f276e0b37f727eab3ae66b3af5b8a97abf70da3.map\",\"size\":1298,\"hash\":\"2f276e0b37f727eab3ae66b3af5b8a97abf70da3\"},{\"path\":\"packages/mike_mocha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mike_mocha.js?2fc4e04c17dee7999487c16ac758e9b07d83b013\",\"sourceMap\":\"packages/mike_mocha.js.map\",\"sourceMapUrl\":\"/packages/2fc4e04c17dee7999487c16ac758e9b07d83b013.map\",\"size\":1346932,\"hash\":\"2fc4e04c17dee7999487c16ac758e9b07d83b013\"},{\"path\":\"packages/mrt_bootstrap3-wysihtml5.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_bootstrap3-wysihtml5.js?ba69ec2f2babfc0f8b95e7fd97f7d2cbbefd1e50\",\"sourceMap\":\"packages/mrt_bootstrap3-wysihtml5.js.map\",\"sourceMapUrl\":\"/packages/ba69ec2f2babfc0f8b95e7fd97f7d2cbbefd1e50.map\",\"size\":1279533,\"hash\":\"ba69ec2f2babfc0f8b95e7fd97f7d2cbbefd1e50\"},{\"path\":\"packages/bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/bootstrap.js?ec8a7746b798984dd1df9eb6ae62114dcf98f504\",\"sourceMap\":\"packages/bootstrap.js.map\",\"sourceMapUrl\":\"/packages/ec8a7746b798984dd1df9eb6ae62114dcf98f504.map\",\"size\":282505,\"hash\":\"ec8a7746b798984dd1df9eb6ae62114dcf98f504\"},{\"path\":\"packages/mrt_bootstrap-wysihtml5.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_bootstrap-wysihtml5.js?f9e1bcaeb8a511d270064b828d2f65acfa26e1cb\",\"sourceMap\":\"packages/mrt_bootstrap-wysihtml5.js.map\",\"sourceMapUrl\":\"/packages/f9e1bcaeb8a511d270064b828d2f65acfa26e1cb.map\",\"size\":179344,\"hash\":\"f9e1bcaeb8a511d270064b828d2f65acfa26e1cb\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?f8e1a5011d79f146201c0f5b072069b6bdf09525\",\"size\":836,\"hash\":\"f8e1a5011d79f146201c0f5b072069b6bdf09525\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?4043575a638d63014733077a19d91935c409d0b1\",\"size\":6414,\"hash\":\"4043575a638d63014733077a19d91935c409d0b1\"},{\"path\":\"app/conspectus.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/conspectus.js?5202d70eba0e1adb61254ed0ad2ae337d1edfac5\",\"size\":2948,\"hash\":\"5202d70eba0e1adb61254ed0ad2ae337d1edfac5\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?73f5dd61caea8bea9013d19392a5c02fc5338229\",\"size\":5976,\"hash\":\"73f5dd61caea8bea9013d19392a5c02fc5338229\"},{\"path\":\"app/konspekt.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/konspekt.js?cb1425618a6af81108495ab9d39016d349f8fb67\",\"size\":45,\"hash\":\"cb1425618a6af81108495ab9d39016d349f8fb67\"},{\"path\":\"2f5cae3f36c607bb36b2902a8850a20a8be45758.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/2f5cae3f36c607bb36b2902a8850a20a8be45758.css\",\"sourceMap\":\"2f5cae3f36c607bb36b2902a8850a20a8be45758.css.map\",\"sourceMapUrl\":\"/2f5cae3f36c607bb36b2902a8850a20a8be45758.map\",\"size\":309060,\"hash\":\"2f5cae3f36c607bb36b2902a8850a20a8be45758\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"packages/bootstrap/img/glyphicons-halflings.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/bootstrap/img/glyphicons-halflings.png\",\"size\":12799,\"hash\":\"84f613631b07d4fe22acbab50e551c0fe04bd78b\"},{\"path\":\"packages/bootstrap/img/glyphicons-halflings-white.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/bootstrap/img/glyphicons-halflings-white.png\",\"size\":8777,\"hash\":\"a25c4705320fd63c33790e666872910e702b9bf6\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"29cacf3a26faee749de9af49eaa28d24245141b6\"}"
+                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?61916b1060b33931a21f104fbffb67c2f3d493c5\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/61916b1060b33931a21f104fbffb67c2f3d493c5.map\",\"size\":108989,\"hash\":\"61916b1060b33931a21f104fbffb67c2f3d493c5\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?da8974b7231dd8c0caccb5f322dcf97329d486d1\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map\",\"size\":25926,\"hash\":\"da8974b7231dd8c0caccb5f322dcf97329d486d1\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9adf0102ce60b3df01914155826e1661f636e91d\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9adf0102ce60b3df01914155826e1661f636e91d.map\",\"size\":455764,\"hash\":\"9adf0102ce60b3df01914155826e1661f636e91d\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2.map\",\"size\":616556,\"hash\":\"1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/autopublish.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autopublish.js?c3059a78bb200b171099fc4fa1a9345101790ddb\",\"sourceMap\":\"packages/autopublish.js.map\",\"sourceMapUrl\":\"/packages/c3059a78bb200b171099fc4fa1a9345101790ddb.map\",\"size\":1293,\"hash\":\"c3059a78bb200b171099fc4fa1a9345101790ddb\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/rzymek_fullcalendar.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rzymek_fullcalendar.js?bd6239b6c0ef5a9fa949388daccbe84b88042e17\",\"sourceMap\":\"packages/rzymek_fullcalendar.js.map\",\"sourceMapUrl\":\"/packages/bd6239b6c0ef5a9fa949388daccbe84b88042e17.map\",\"size\":1185238,\"hash\":\"bd6239b6c0ef5a9fa949388daccbe84b88042e17\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73.map\",\"size\":562176,\"hash\":\"12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?2312d739008b2ffa52f13c77c5d6fc59c9e17d56\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map\",\"size\":6642,\"hash\":\"2312d739008b2ffa52f13c77c5d6fc59c9e17d56\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?539b5fc23cf5e63bc8e324543a1026b138316a8c\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/539b5fc23cf5e63bc8e324543a1026b138316a8c.map\",\"size\":110444,\"hash\":\"539b5fc23cf5e63bc8e324543a1026b138316a8c\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?77c0809654ee3a10dcd5a4f961fb1437e7957d33\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/77c0809654ee3a10dcd5a4f961fb1437e7957d33.map\",\"size\":385864,\"hash\":\"77c0809654ee3a10dcd5a4f961fb1437e7957d33\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/599ba307216da826d8b335332ebcc9a497a369a0.map\",\"size\":11910,\"hash\":\"599ba307216da826d8b335332ebcc9a497a369a0\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?8f5f07408181c410b8a9a73386eec5ab76a7c91f\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/8f5f07408181c410b8a9a73386eec5ab76a7c91f.map\",\"size\":87778,\"hash\":\"8f5f07408181c410b8a9a73386eec5ab76a7c91f\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?6ed32803c332f93f65e36a195f42e58a62ed028d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/6ed32803c332f93f65e36a195f42e58a62ed028d.map\",\"size\":108969,\"hash\":\"6ed32803c332f93f65e36a195f42e58a62ed028d\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?e436deefadc999c21b6fd16e8e1ecce55c3c3a55\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map\",\"size\":6497,\"hash\":\"e436deefadc999c21b6fd16e8e1ecce55c3c3a55\"},{\"path\":\"packages/oauth.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/oauth.js?7d11f8366dde05ebf22a1a391f7a39de023df59c\",\"sourceMap\":\"packages/oauth.js.map\",\"sourceMapUrl\":\"/packages/7d11f8366dde05ebf22a1a391f7a39de023df59c.map\",\"size\":31457,\"hash\":\"7d11f8366dde05ebf22a1a391f7a39de023df59c\"},{\"path\":\"packages/accounts-oauth.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-oauth.js?e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7\",\"sourceMap\":\"packages/accounts-oauth.js.map\",\"sourceMapUrl\":\"/packages/e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7.map\",\"size\":15783,\"hash\":\"e601fdb200ebbc6aa49c1bcd52a0f898ab5eecf7\"},{\"path\":\"packages/accounts-ui-unstyled.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui-unstyled.js?aef74b5fc84ea5cc2da87963bf496cfe692fbebb\",\"sourceMap\":\"packages/accounts-ui-unstyled.js.map\",\"sourceMapUrl\":\"/packages/aef74b5fc84ea5cc2da87963bf496cfe692fbebb.map\",\"size\":249509,\"hash\":\"aef74b5fc84ea5cc2da87963bf496cfe692fbebb\"},{\"path\":\"packages/accounts-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui.js?1ff79db616cce9b320fe8aed6103eded31248467\",\"sourceMap\":\"packages/accounts-ui.js.map\",\"sourceMapUrl\":\"/packages/1ff79db616cce9b320fe8aed6103eded31248467.map\",\"size\":1346,\"hash\":\"1ff79db616cce9b320fe8aed6103eded31248467\"},{\"path\":\"packages/oauth2.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/oauth2.js?5fa58098b89a1467037a0b8eb4b17ad33b72cf07\",\"sourceMap\":\"packages/oauth2.js.map\",\"sourceMapUrl\":\"/packages/5fa58098b89a1467037a0b8eb4b17ad33b72cf07.map\",\"size\":1436,\"hash\":\"5fa58098b89a1467037a0b8eb4b17ad33b72cf07\"},{\"path\":\"packages/facebook.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/facebook.js?3f63ba659f3605b965fb3f3aa23f784e1e29c95b\",\"sourceMap\":\"packages/facebook.js.map\",\"sourceMapUrl\":\"/packages/3f63ba659f3605b965fb3f3aa23f784e1e29c95b.map\",\"size\":12686,\"hash\":\"3f63ba659f3605b965fb3f3aa23f784e1e29c95b\"},{\"path\":\"packages/accounts-facebook.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-facebook.js?9e890f917b8ec3c3ea39544407a7e982dbc6d5ae\",\"sourceMap\":\"packages/accounts-facebook.js.map\",\"sourceMapUrl\":\"/packages/9e890f917b8ec3c3ea39544407a7e982dbc6d5ae.map\",\"size\":5102,\"hash\":\"9e890f917b8ec3c3ea39544407a7e982dbc6d5ae\"},{\"path\":\"packages/velocity_shim.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_shim.js?2f276e0b37f727eab3ae66b3af5b8a97abf70da3\",\"sourceMap\":\"packages/velocity_shim.js.map\",\"sourceMapUrl\":\"/packages/2f276e0b37f727eab3ae66b3af5b8a97abf70da3.map\",\"size\":1298,\"hash\":\"2f276e0b37f727eab3ae66b3af5b8a97abf70da3\"},{\"path\":\"packages/mike_mocha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mike_mocha.js?2fc4e04c17dee7999487c16ac758e9b07d83b013\",\"sourceMap\":\"packages/mike_mocha.js.map\",\"sourceMapUrl\":\"/packages/2fc4e04c17dee7999487c16ac758e9b07d83b013.map\",\"size\":1346932,\"hash\":\"2fc4e04c17dee7999487c16ac758e9b07d83b013\"},{\"path\":\"packages/mrt_bootstrap3-wysihtml5.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_bootstrap3-wysihtml5.js?ba69ec2f2babfc0f8b95e7fd97f7d2cbbefd1e50\",\"sourceMap\":\"packages/mrt_bootstrap3-wysihtml5.js.map\",\"sourceMapUrl\":\"/packages/ba69ec2f2babfc0f8b95e7fd97f7d2cbbefd1e50.map\",\"size\":1279533,\"hash\":\"ba69ec2f2babfc0f8b95e7fd97f7d2cbbefd1e50\"},{\"path\":\"packages/bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/bootstrap.js?ec8a7746b798984dd1df9eb6ae62114dcf98f504\",\"sourceMap\":\"packages/bootstrap.js.map\",\"sourceMapUrl\":\"/packages/ec8a7746b798984dd1df9eb6ae62114dcf98f504.map\",\"size\":282505,\"hash\":\"ec8a7746b798984dd1df9eb6ae62114dcf98f504\"},{\"path\":\"packages/mrt_bootstrap-wysihtml5.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_bootstrap-wysihtml5.js?f9e1bcaeb8a511d270064b828d2f65acfa26e1cb\",\"sourceMap\":\"packages/mrt_bootstrap-wysihtml5.js.map\",\"sourceMapUrl\":\"/packages/f9e1bcaeb8a511d270064b828d2f65acfa26e1cb.map\",\"size\":179344,\"hash\":\"f9e1bcaeb8a511d270064b828d2f65acfa26e1cb\"},{\"path\":\"packages/nemo64_bootstrap-data.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/nemo64_bootstrap-data.js?5668c42202b40f6c6ea45d87def47b9c6ced760c\",\"sourceMap\":\"packages/nemo64_bootstrap-data.js.map\",\"sourceMapUrl\":\"/packages/5668c42202b40f6c6ea45d87def47b9c6ced760c.map\",\"size\":1388,\"hash\":\"5668c42202b40f6c6ea45d87def47b9c6ced760c\"},{\"path\":\"packages/nemo64_bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/nemo64_bootstrap.js?ec67e21097838440b595b9cec9f3aca5493efadb\",\"sourceMap\":\"packages/nemo64_bootstrap.js.map\",\"sourceMapUrl\":\"/packages/ec67e21097838440b595b9cec9f3aca5493efadb.map\",\"size\":1431,\"hash\":\"ec67e21097838440b595b9cec9f3aca5493efadb\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?3c496d2950151d744a8574297b46d2763a123bdf\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/3c496d2950151d744a8574297b46d2763a123bdf.map\",\"size\":42134,\"hash\":\"3c496d2950151d744a8574297b46d2763a123bdf\"},{\"path\":\"packages/launch-screen.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/launch-screen.js?13e1092ebecdb7208762500188f1dc2dea5603e9\",\"sourceMap\":\"packages/launch-screen.js.map\",\"sourceMapUrl\":\"/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map\",\"size\":9707,\"hash\":\"13e1092ebecdb7208762500188f1dc2dea5603e9\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?e4b5a98eb19781674e9bff93bb083aac8fe2a594\",\"size\":890,\"hash\":\"e4b5a98eb19781674e9bff93bb083aac8fe2a594\"},{\"path\":\"app/template.PROJEKT.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/template.PROJEKT.js?4ac6812bcb20ae3316a5969a8be49fddb347ea22\",\"size\":9513,\"hash\":\"4ac6812bcb20ae3316a5969a8be49fddb347ea22\"},{\"path\":\"app/conspectus.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/conspectus.js?5202d70eba0e1adb61254ed0ad2ae337d1edfac5\",\"size\":2948,\"hash\":\"5202d70eba0e1adb61254ed0ad2ae337d1edfac5\"},{\"path\":\"app/kalender.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/kalender.js?ae486f420f0fc4431f14ef28c9fd1dd26faf1b2d\",\"size\":6367,\"hash\":\"ae486f420f0fc4431f14ef28c9fd1dd26faf1b2d\"},{\"path\":\"app/konspekt.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/konspekt.js?cb1425618a6af81108495ab9d39016d349f8fb67\",\"size\":45,\"hash\":\"cb1425618a6af81108495ab9d39016d349f8fb67\"},{\"path\":\"f8a0ed422ca17333078602dddc865ea3cd0c2a50.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/f8a0ed422ca17333078602dddc865ea3cd0c2a50.css\",\"sourceMap\":\"f8a0ed422ca17333078602dddc865ea3cd0c2a50.css.map\",\"sourceMapUrl\":\"/f8a0ed422ca17333078602dddc865ea3cd0c2a50.map\",\"size\":204303,\"hash\":\"f8a0ed422ca17333078602dddc865ea3cd0c2a50\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_logo.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_logo.svg\",\"size\":3723,\"hash\":\"bd19ecdc8eb1084f7bb562c298e4ce41f9cdc698\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_cog.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_cog.svg\",\"size\":987,\"hash\":\"6e74acfffcbd2bafdc8a95d9db7762ece07b1e81\"},{\"path\":\"packages/velocity_html-reporter/lib/icon-time.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/icon-time.png\",\"size\":2834,\"hash\":\"868f492022a4dab0f1522de6aae0773531bc6e85\"},{\"path\":\"packages/bootstrap/img/glyphicons-halflings.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/bootstrap/img/glyphicons-halflings.png\",\"size\":12799,\"hash\":\"84f613631b07d4fe22acbab50e551c0fe04bd78b\"},{\"path\":\"packages/bootstrap/img/glyphicons-halflings-white.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/bootstrap/img/glyphicons-halflings-white.png\",\"size\":8777,\"hash\":\"a25c4705320fd63c33790e666872910e702b9bf6\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot\",\"size\":20335,\"hash\":\"f3a9a3b609133c3d21d6b42abbf7f43bd111df72\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg\",\"size\":62926,\"hash\":\"66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf\",\"size\":41280,\"hash\":\"aafafdc09404c4aa4447d7e898a2183def9cc1b1\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff\",\"size\":23320,\"hash\":\"22037a3455914e5662fa51a596677bdb329e2c5c\"},{\"path\":\"app/tooplate_body.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_body.jpg\",\"size\":2849,\"hash\":\"a0e281e8b0e740eaa97c7c2b6a472d87d65e805a\"},{\"path\":\"app/tooplate_content_bg.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_content_bg.jpg\",\"size\":86736,\"hash\":\"233c60f90112ef4b808d979acfbb7763ec080570\"},{\"path\":\"app/tooplate_list.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_list.png\",\"size\":256,\"hash\":\"8522ec2ecbc4bb3d987eebff62ee7734c26d035b\"},{\"path\":\"app/tooplate_logo.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_logo.png\",\"size\":3665,\"hash\":\"d0c8f146bc2c89e777a412a6257f7805e8fa65ed\"},{\"path\":\"app/tooplate_menu_01.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_01.png\",\"size\":1150,\"hash\":\"99035bae3197403a6acee900f74cedee66017367\"},{\"path\":\"app/tooplate_menu_02.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_02.png\",\"size\":1229,\"hash\":\"7763d39c0edd831e4eef3f4ac97182d0c4834db2\"},{\"path\":\"app/tooplate_menu_03.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_03.png\",\"size\":1233,\"hash\":\"eff413dc63ce61813f2b67163818c08164b8166b\"},{\"path\":\"app/tooplate_menu_04.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_04.png\",\"size\":1187,\"hash\":\"fd8915dd591b4dfcbaf691d6a69a61967a0faf32\"},{\"path\":\"app/tooplate_menu_05.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/tooplate_menu_05.png\",\"size\":1184,\"hash\":\"7c27cabc6bc77bb728db7c7298c93eef95ef153c\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"bacc6b92e70f97a1baa0aa462c51b9d331809c3e\"}],\"version\":\"36d7578a93c713139b3e18ebde06143612295414\"}"
                 },
                 "type": {
                   "type": "constant",
@@ -9249,6 +9358,9 @@ var packageMetadata = {
         },
         "additionalStaticJs": {
           "type": "object"
+        },
+        "validPid": {
+          "type": "function"
         }
       }
     }
@@ -9844,15 +9956,19 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "3b2ac46ab3b500a2afc6f37cd2ee0b056b9b119b"
+          "value": "fb32d951adb3ea41a0fb90676d115e12e6a284c7"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "c9519a7e0984ed6c58fdfd972538bdd991f24715"
+          "value": "c90140b147479bb4e55af45da54359555ea9e034"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
           "value": "none"
+        },
+        "appId": {
+          "type": "constant",
+          "value": "8tc5me1c1snuu10qh7pt"
         }
       }
     }
@@ -10245,6 +10361,9 @@ var packageMetadata = {
           }
         }
       }
+    },
+    "AccountsTest": {
+      "type": "undefined"
     }
   },
   "accounts-ui": {},
@@ -10373,6 +10492,7 @@ var packageMetadata = {
   },
   "mrt:bootstrap3-wysihtml5": {},
   "mrt:bootstrap-wysihtml5": {},
+  "nemo64:bootstrap": {},
   "session": {},
   "livedata": {
     "DDP": {

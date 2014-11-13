@@ -7,6 +7,7 @@ if (Meteor.isClient) {
     Session.set('selectedLecture', "");
     Session.set('dayView', false);
     Session.set('conspectus', false);
+    Session.set('editingMode', false);
 
     Template.CalendarTemplate.rendered = function () {
         $( ".login-button" ).addClass('logout-button');
@@ -62,6 +63,7 @@ if (Meteor.isClient) {
         }
         return;
     }
+
 
     Template.Dayview.selectedDay = function () {
 
@@ -171,6 +173,14 @@ if (Meteor.isClient) {
             $('#katsetus').hide();
             Session.set('conspectus', true);
             Session.set('selectedLecture', lectureName);
+        },
+
+        'click .saveChanges': function (e) {
+            var selectedCurrent = Session.get('selectedDate');
+            var userID = Session.get('userID');
+            var selectedCurrentLecture = Session.get('selectedLecture');
+            var conspectus = Lectures.findOne({});
+            alert($(e.target).closest('tr').data('name'));
         }
 
     });

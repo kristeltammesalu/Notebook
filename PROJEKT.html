@@ -38,7 +38,7 @@
             </div>
 
             <div id="menu">
-                <ul class="navigation">
+                <ul class="navigation1">
                     <li><a href="" class="selected menu_01">Kalender</a></li>
 
 
@@ -47,7 +47,7 @@
         </div>
 
         <div id="content">
-            <div class="panel" id="home">
+            <div class="panel" id="home" style="overflow: hidden;">
 
                 {{#if ifDayviewTrue}}
                     {{> Dayview}}
@@ -90,7 +90,7 @@
 
     <br>
 
-    <div>
+    <div  class="scroll">
         {{#each lectures}}
         {{> lecture}}
         {{/each}}
@@ -139,15 +139,61 @@
 
 <template name="lecture">
     <div>
-        <table class="lecturesTable">
-            <tr >
+        <table class="lecturesTable table table-condensed" style="border-collapse:collapse;">
+            <tr  class="accordion-toggle" data-name="{{name}}" data-id="{{_id}}">
                 <td style="width: 70px;">{{begintime}}</td>
                 <td style="width: 70px;">{{endtime}}</td> 
-                <td id="{{_id}}" class="clickLecturename" style="width: 200px;">{{lecturename}}</td>
+                <td class="clickLecturename" style="width: 200px;">{{lecturename}}</td>
+                <td >
+                    <div class="btn-group">
+                        <a href="#myModal" class="btn btn-default editButton" data-toggle="modal">Left</a>
+                        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#{{_id}}">Right</button>
+                    </div>
+                </td>
+            </tr>
+
+            <tr >
+                <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="{{_id}}"> Demo1 </div> </td>
             </tr>
         </table>
+
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Kas soovid muuta valitud tunni andmeid?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Kui soovid muuta valitud tunni andmeid, siis palun lisa soovitud andmed siia: </p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <td>Alguskellaaeg</td>
+                                    <td>Lõpukellaaeg</td>
+                                    <td>Tunni nimi</td>
+                                </tr>
+
+                            </thead>
+                            <tr>
+                                <td><input type="text" class="timeInput" placeholder="--:--"></td>
+                                <td><input type="text" class="timeInput" placeholder="--:--" ></td>
+                                <td><input type="text" class="lecture"></td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary saveChanges">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
+
+
 
 
 
