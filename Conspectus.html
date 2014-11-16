@@ -1,0 +1,46 @@
+<template name="Conspectus">
+
+
+    {{>loginButtons}}
+
+    <div id="tooplate_wrapper">
+        <div id="tooplate_sidebar">
+
+            <div id="header">
+                <h1>Märkmik</h1>
+            </div>
+
+            <div id="menu">
+                <ul class="navigation1">
+                    <li><a href="/" class="selected menu_01">Kalender</a></li>
+                    <li><a href="{{ pathFor 'ToDo' }}" class="selected menu_02">ToDo List</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="inside">
+            <div class="panel" id="home" style="overflow: hidden;">
+                <div id="konspekt">
+                    <h1>{{selectedDay}} {{selectedLecture}}</h1>
+
+
+                    <textarea id="writtenConspectus" cols="10" placeholder="Kirjuta oma konspekt siia!">
+                        {{#each showConspectus}}
+                        {{conspectus}}
+                        {{/each}}
+                    </textarea>
+
+
+
+                    <div class="footer">
+                        <button id="backConspectusButton" class="fa fa-arrow-left"></button>
+                        <button id="saveConspectusButton" class="fa fa-check check"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</template>

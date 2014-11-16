@@ -1,0 +1,81 @@
+<template name="Dayview">
+
+
+    {{>loginButtons}}
+
+    <div id="tooplate_wrapper">
+        <div id="tooplate_sidebar">
+
+            <div id="header">
+                <h1>Märkmik</h1>
+            </div>
+
+            <div id="menu">
+                <ul class="navigation1">
+                    <li><a href="/" class="selected menu_01">Kalender</a></li>
+                    <li><a href="{{ pathFor 'ToDo' }}" class="selected menu_02">ToDo List</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="inside">
+            <div class="panel" id="home" style="overflow: hidden;">
+                <div id="katsetus">
+                    <div>
+                        <h1 class="dayViewHeader">{{selectedDay}}</h1>
+                        <a href="#addNewLectureModal" class="btn btn-default fa fa-plus openLectureModal" data-toggle="modal"></a>
+                    </div>
+
+                    <div id="addNewLectureModal" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">Lisa uus tund</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <td>Alguskellaaeg</td>
+                                            <td>Lõpukellaaeg</td>
+                                            <td>Tunni nimi</td>
+                                        </tr>
+                                        </thead>
+
+                                        <tr>
+                                            <td><input type="text" id="beginTime" class="timeInput" placeholder="--:--" style="padding: 2px 3px; margin-bottom:0px;"></td>
+                                            <td><input type="text" id="endTime" class="timeInput" placeholder="--:--" style="padding: 2px 3px; margin-bottom:0px;"></td>
+                                            <td><input type="text" id="lectureName" class="lecture" style="padding: 2px 3px; margin-bottom:0px;"></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="modal-footer">
+                                    <button id="saveButton" type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div  class="scroll">
+                        <table class="lecturesTable table table-condensed" style="border-collapse:collapse;">
+                            {{#each lectures}}
+                            {{> lecture}}
+                            {{/each}}
+                        </table>
+                    </div>
+
+                    <div class="footer">
+                        <button id="backButton" class="fa fa-arrow-left"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</template>

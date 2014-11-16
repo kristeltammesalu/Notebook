@@ -1,0 +1,28 @@
+<template name="CalendarTemplate">
+
+    {{>loginButtons}}
+
+    <div id="tooplate_wrapper">
+        <div id="tooplate_sidebar">
+
+            <div id="header">
+                <h1>Märkmik</h1>
+            </div>
+
+            <div id="menu">
+                <ul class="navigation1">
+                    <li><a href="/" class="selected menu_01">Kalender</a></li>
+                    <li><a href="{{ pathFor 'ToDo' }}" class="selected menu_02">ToDo List</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="inside">
+            <div class="panel" id="home" style="overflow: hidden;">
+                <div class="calendar"></div>
+            </div>
+        </div>
+    </div>
+
+</template>

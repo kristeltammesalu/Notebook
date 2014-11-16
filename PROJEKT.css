@@ -1,7 +1,7 @@
-#slider {
+/*#allPage {
     position: relative;
 	width: 100%;
-}
+}*/
 
 #tooplate_wrapper {
 	width: 954px;
@@ -27,9 +27,8 @@
 	margin: 0; 
 	padding: 0; 
 	height: 60px; 
-	display: block; 
-	text-indent: - 10000px; 
-	margin-top: 15px;
+	display: block;
+	margin-top: 5px;
 	font-family: 'Lobster', cursive;
 }
 
@@ -38,7 +37,7 @@
 	padding-left: 60px;
 }
 
-#content {
+#inside {
 	float: right;
 	width: 520px;
 	height: 600px;	
@@ -86,7 +85,8 @@ ul.navigation1 a {
 	font-family: 'Lobster Two';
 }
 
-.menu_01 { background: url(tooplate_menu_03.png) }
+.menu_01 { background: url(tooplate_menu_02.png) }
+.menu_02 { background: url(tooplate_menu_03.png) }
 
 ul.navigation1 a:hover, ul.navigation a.selected {
 	color: #412810;
@@ -155,10 +155,13 @@ em { color: #29b5d3; }
     margin-left:5px;
 }
 
-.TakeDay{
-	width:400px;
-        margin-left:32px;
-        margin-top: 20px;
+.dayViewHeader{
+    float: left;
+    margin: 0px 0px 30px 40px;
+}
+.openLectureModal {
+    float: right;
+    margin: 15px;
 }
 #addNewLecture {
 	width: 25px;
@@ -190,7 +193,7 @@ table.lecturesTable td {
 }
 
 #saveButton {
-	float:left;
+	float:right;
 }
 #closeButton{
     float:left;
@@ -297,4 +300,34 @@ table.lecturesTable td {
     margin-bottom: 0px;
 }
 
+.done {
+    text-decoration: line-through;
+    color: #B1B0B0;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.small-cell {
+    width: 2%;
+}
+
+.lists {
+    margin-top: 110px;
+}
+
+.listname-input {
+    margin-left: 10px;
+    width: 86%;
+}
+
+.span8 {
+    width: 200px;
+}
+
+.span3 {
+    width: 180px;
+    margin-left: 135px;
+}
 

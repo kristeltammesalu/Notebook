@@ -5,19 +5,19 @@ Conspectus = new Mongo.Collection("lectureconspectus");
 
 if (Meteor.isClient) {
 
-    Template.conspectus.selectedDay = function () {
+    Template.Conspectus.selectedDay = function () {
 
         return Session.get('selectedDate');
 
     };
 
-    Template.conspectus.selectedLecture = function () {
+    Template.Conspectus.selectedLecture = function () {
 
         return Session.get('selectedLecture');
 
     };
 
-    Template.conspectus.showConspectus = function () {
+    Template.Conspectus.showConspectus = function () {
         var selectedDate = Session.get('selectedDate');
         var userID = Session.get('userID');
         var selectedCurrentLecture = Session.get('selectedLecture');
@@ -36,7 +36,7 @@ if (Meteor.isClient) {
         return countConspectus;
     };
 
-    Template.conspectus.events({
+    Template.Conspectus.events({
 
         'click #saveConspectusButton': function (t) {
             var selectedCurrent = Session.get('selectedDate');
@@ -64,21 +64,11 @@ if (Meteor.isClient) {
         },
 
         'click #backConspectusButton': function () {
-            $('#katsetus').show();
-            Session.set('conspectus', false);
-            Session.set('dayView', true);
+            Router.go('Dayview');
         }
-
-        /*'click #editButton': function () {
-            if(document.getElementById("writtenConspectus").disabled == true) {
-                $("#writtenConspectus").prop('disabled',false);
-            } else {
-                $("#writtenConspectus").prop('disabled',true);
-            }
-        }*/
     });
 
-    Template.conspectus.rendered = function () {
+    Template.Conspectus.rendered = function () {
         $('#writtenConspectus').wysihtml5();
     };
 }

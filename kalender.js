@@ -1,4 +1,5 @@
 Lectures = new Mongo.Collection("lectures");
+Homework = new Mongo.Collection("homework");
 
 if (Meteor.isClient) {
 
@@ -7,7 +8,7 @@ if (Meteor.isClient) {
     Session.set('selectedLecture', "");
     Session.set('dayView', false);
     Session.set('conspectus', false);
-    Session.set('editingMode', false);
+    Session.setDefault("homeworkId", null);
 
     Template.CalendarTemplate.rendered = function () {
         $( ".login-button" ).addClass('logout-button');
@@ -18,22 +19,17 @@ if (Meteor.isClient) {
 
                 //alert(Template.Dayview.countLectures());
 
-                Session.set('dayView', true);
+                //Session.set('dayView', true);
 
                 //alert(Meteor.userId());
 
                 Session.set('selectedDate', date.format("D.M.YYYY"));
                 Session.set('userID', Meteor.userId());
+
+                Router.go('Dayview');
             }
         });
     }
-
-    /*Template.signinpage.rendered = function()
-    {
-        $( ".login-link-text" ).css( "display", "none" );
-        Accounts._loginButtonsSession.set('dropdownVisible', true);
-
-    };*/
 
     Template.content.rendered = function() {
         $( ".login-button" ).addClass('logout-button');
@@ -77,6 +73,13 @@ if (Meteor.isClient) {
         var userID = Session.get('userID');
 
         return Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}});
+    };
+
+    Template.Dayview.homeworks = function () {
+        var selectedDate = Session.get('selectedDate');
+        var userID = Session.get('userID');
+
+        return Homework.find({lectureid: Session.get("homeworkId")});
     };
 
     Template.Dayview.countLectures = function () {
@@ -143,7 +146,13 @@ if (Meteor.isClient) {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
                 Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
 
-                $('#addNewLectureInput').hide();
+                var newLecture = Lectures.findOne({ userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName });
+                Session.set("homeworkId", newLecture._id);
+
+                alert(newLecture._id);
+
+                Template.Dayview.inputSetEmpty();
+
             }
 
         },
@@ -157,8 +166,7 @@ if (Meteor.isClient) {
             }
         },
         'click #backButton': function () {
-            Session.set('dayView', false);
-            //console.dir(Session.get('adding_task'));
+            Router.go('/');
 
         },
         'click #closeButton': function () {
@@ -169,27 +177,51 @@ if (Meteor.isClient) {
 
         'click .clickLecturename': function (e) {
             var lectureName = $(e.target).text();
-            //alert(lectureName);
-            $('#katsetus').hide();
-            Session.set('conspectus', true);
             Session.set('selectedLecture', lectureName);
+
+            Router.go('Conspectus');
         },
 
-        'click .saveChanges': function (e) {
+        'click .saveChanges': function (e, tmpl) {
             var selectedCurrent = Session.get('selectedDate');
             var userID = Session.get('userID');
-            var selectedCurrentLecture = Session.get('selectedLecture');
-            var conspectus = Lectures.findOne({});
-            alert($(e.target).closest('tr').data('name'));
+
+            var beginTime = tmpl.find(".beginTime").value;
+            var endTime = tmpl.find(".endTime").value;
+            var lectureName = tmpl.find(".lectureNameTest").value;
+
+
+            Lectures.update({_id: this._id}, {$set: {begintime: beginTime, endtime: endTime, lecturename: lectureName}},
+                {}, function(err, doc){
+                    //alert("Töötab!");
+                });
+        },
+
+        'click .editButton': function (e) {
+            var selectedLecture = Lectures.findOne({_id: this._id});
+            Session.set('selectedLecture', selectedLecture);
+
+
         }
 
+
+    });
+
+    Template.lecture.events({
+        'click .addHomework': function (e, tmpl) {
+            var selectedCurrent = Session.get('selectedDate');
+            var userID = Session.get('userID');
+
+            var homework = tmpl.find(".homework").value;
+
+            Homework.insert({homework: homework, lectureid: Session.get("homeworkId")},
+                {}, function(err, doc){
+                    alert("Töötab!");
+                });
+            alert("tere");
+
+        }
     });
 
 
-}
-
-if (Meteor.isServer) {
-    Meteor.startup(function () {
-        // code to run on server at startup
-    });
 }
