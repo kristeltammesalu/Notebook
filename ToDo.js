@@ -37,6 +37,10 @@ if (Meteor.isClient) {
         }
     });
 
+    Template.todoListItem.rendered = function() {
+        console.log(this._id);
+    }
+
 
     Template.todoListItem.editing_todo = function() {
         return Session.get("editing_todo");

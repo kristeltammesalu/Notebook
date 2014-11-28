@@ -43,24 +43,6 @@ if (Meteor.isClient) {
 
     }
 
-
-    Template.content.ifDayviewTrue = function () {
-
-        if (Session.equals('dayView', true)) {
-            return Session.get('selectedDate');
-        }
-        return;
-    }
-
-    Template.content.ifkonspektTrue = function () {
-
-        if (Session.equals('conspectus', true)) {
-            return Session.get('selectedDate');
-        }
-        return;
-    }
-
-
     Template.Dayview.selectedDay = function () {
 
         return Session.get('selectedDate');
@@ -75,11 +57,13 @@ if (Meteor.isClient) {
         return Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}});
     };
 
-    Template.Dayview.homeworks = function () {
+    Template.lecture.homeworks = function () {
         var selectedDate = Session.get('selectedDate');
         var userID = Session.get('userID');
 
-        return Homework.find({lectureid: Session.get("homeworkId")});
+        console.log("Getting homeworks for lecture with ID: " + this._id);
+
+        return Homework.find({lectureid: this._id});
     };
 
     Template.Dayview.countLectures = function () {
@@ -146,11 +130,6 @@ if (Meteor.isClient) {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
                 Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
 
-                var newLecture = Lectures.findOne({ userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName });
-                Session.set("homeworkId", newLecture._id);
-
-                alert(newLecture._id);
-
                 Template.Dayview.inputSetEmpty();
 
             }
@@ -214,14 +193,34 @@ if (Meteor.isClient) {
 
             var homework = tmpl.find(".homework").value;
 
-            Homework.insert({homework: homework, lectureid: Session.get("homeworkId")},
-                {}, function(err, doc){
-                    alert("Töötab!");
+            var homeworkID = "";
+
+            Homework.insert({homework: homework, lectureid: this._id}, function(err, doc) {
+                    homeworkID = doc;
                 });
-            alert("tere");
+
+            console.log("Inserted new Homework with ID: " + homeworkID + " for lecture ID: " + this._id);
+
+
+        },
+
+        'click .removeLecture': function (e, tmpl) {
+            var removeLecture = this._id;
+            Lectures.remove({ _id: removeLecture});
+
+        }, 'click .addNewHomeWork': function (e, tmpl) {
+
+            Session.set("homeworkId", this._id);
+            alert(this._id + " ReaID");
+
+            $("#homeworkModal").addClass(this._id);
 
         }
     });
+
+    Template.lecture.rendered = function() {
+        console.log("Lecture ID: " + this._id);
+    }
 
 
 }

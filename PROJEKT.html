@@ -55,25 +55,27 @@
 
 <template name="lecture">
         <tr  class="accordion-toggle" data-name="{{name}}" data-id="{{_id}}">
+            <td><a href="#myModal" class="fa fa-pencil fa-fw editButton" data-toggle="modal"></a></td>
+            <td><i class="fa fa-trash removeLecture"></i></td>
             <td style="width: 70px;">{{begintime}}</td>
             <td style="width: 70px;">{{endtime}}</td>
             <td class="clickLecturename" style="width: 200px;">{{lecturename}}</td>
 
             <td >
                 <div class="btn-group">
-                    <a href="#myModal" class="btn btn-default editButton" data-toggle="modal">Muuda</a>
-                    <a href="#homeworkModal" class="btn btn-default" data-toggle="modal">Add</a>
-                    <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#{{_id}}">Right</button>
+
+                    <a href="#{{_id}}" class="btn btn-default addNewHomeWork" data-toggle="modal">Add</a>
+                    <button type="button" class="btn btn-default" data-toggle="collapse" data-target=".{{_id}}">Right</button>
                 </div>
             </td>
         </tr>
 
 
-            {{#each homeworks}}
-            <tr >
-                <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="{{_id}}"> {{homework}} </div> </td>
+        {{#each homeworks}}
+            <tr>
+                <td colspan="6" class=""><div class="accordian-body collapse {{lectureid}}">{{homework}}</div></td>
             </tr>
-            {{/each}}
+        {{/each}}
 
         <div id="myModal" class="modal fade">
             <div class="modal-dialog">
@@ -109,7 +111,7 @@
             </div>
         </div>
 
-    <div id="homeworkModal" class="modal fade">
+    <div id="{{_id}}" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

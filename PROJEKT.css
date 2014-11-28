@@ -109,8 +109,8 @@ body {
 	background-repeat: repeat;
 }
 
-a, a:link, a:visited { color: #de6d19; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a, a:link, a:visited {color: #666; text-decoration: none; }
+a:hover { text-decoration: none; }
 
 p { margin: 0 0 15px 0; padding: 0; }
 img { border: none; }
@@ -330,4 +330,7 @@ table.lecturesTable td {
     width: 180px;
     margin-left: 135px;
 }
+
+
+
 
