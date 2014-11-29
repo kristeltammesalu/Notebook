@@ -10,21 +10,13 @@
     {{#if currentUser}}
 
     {{else}}
-        <div class="signIn">
-            {{> signinpage}}
-        </div>
+
     {{/if}}
 
 </body>
 
-<template name="signinpage">
-    <div id="signInPage">
-        <h1 class=signInHeader>Tere Tulemast!</h1>
-        {{>loginButtons}}
-    </div>
-</template>
 
-<template name="content">
+<!--<template name="content">
 
     {{>loginButtons}}
 
@@ -51,7 +43,7 @@
         </div>
     </div>
 
-</template>
+</template>-->
 
 <template name="lecture">
         <tr  class="accordion-toggle" data-name="{{name}}" data-id="{{_id}}">

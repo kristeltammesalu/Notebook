@@ -21,21 +21,17 @@ if (Meteor.isClient) {
 
                 //Session.set('dayView', true);
 
-                //alert(Meteor.userId());
+                alert(Meteor.userId());
 
                 Session.set('selectedDate', date.format("D.M.YYYY"));
                 Session.set('userID', Meteor.userId());
+                alert(Session.get('selectedDate'));
 
                 Router.go('Dayview');
             }
         });
     }
 
-    Template.content.rendered = function() {
-        $( ".login-button" ).addClass('logout-button');
-        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
-
-    }
 
     Template.loginButtons.rendered = function() {
         $( ".login-button" ).addClass('logout-button');
@@ -84,15 +80,7 @@ if (Meteor.isClient) {
         return beginTimeEmpty, endTimeEmpty, lectureNameEmpty;
     };
 
-    Template.loginButtons.events({
-        'click #login-buttons-facebook': function () {
-            Session.set('dayView', false);
-            Session.set('conspectus', false);
-            console.dir("Töötab!");
-            $('#login-buttons-logout').addClass("signInPage");
-        }
 
-    });
 
     Template.Dayview.rendered = function () {
         $( ".login-button" ).addClass('logout-button');
@@ -100,7 +88,7 @@ if (Meteor.isClient) {
     }
 
 
-    Template.signinpage.rendered = function () {
+    Template.SignInPage.rendered = function () {
         $( ".login-button" ).removeClass('logout-button');
         $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
     }
