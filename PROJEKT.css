@@ -186,7 +186,6 @@ table.lecturesTable td {
 
 
 .footer {
-	position:absolute;
 	bottom:50px;
 	height:50px;
     width:500px
@@ -283,15 +282,15 @@ table.lecturesTable td {
 }
 
 #writtenConspectus {
-    height: 300px;
-    width: 494px;
+    height: 400px;
+    width: 480px;
     max-height:450px;
     max-width: 494px
 
 }
 
 .scroll {
-    height: 400px;
+    height: 500px;
     width: 550px;
     overflow: auto;
     overflow-x: hidden;
@@ -337,6 +336,7 @@ table.lecturesTable td {
     margin-left: 135px;
 }
 
-
-
+.modal-header, .modal-body{
+    font-family: Arial;
+}
 

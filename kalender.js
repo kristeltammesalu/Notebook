@@ -93,6 +93,7 @@ if (Meteor.isClient) {
             var beginTime = tmpl.find("#beginTime").value;
             var endTime = tmpl.find("#endTime").value;
             var lectureName = tmpl.find("#lectureName").value;
+            var place = tmpl.find("#place").value;
             var rex = /^([0-1][0-9]|[2][0-3]):([0-5][0-9])$/;
 
 
@@ -106,7 +107,7 @@ if (Meteor.isClient) {
                alert("Rohkem tunde ei saa lisada!");
             } else {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
-                Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName});
+                Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName, place: place});
 
                 Template.Dayview.inputSetEmpty();
 
@@ -137,7 +138,7 @@ if (Meteor.isClient) {
             Session.set('selectedLecture', lectureName);
 
             Router.go('Conspectus');
-        },
+        }/*,
 
         'click .saveChanges': function (e, tmpl) {
             var selectedCurrent = Session.get('selectedDate');
@@ -166,9 +167,9 @@ if (Meteor.isClient) {
                 console.log("Updated lecture with id: " + this._id);
 
             }
-        },
+        },*/
 
-        'click .editButton': function (e) {
+        /*'click .editButton': function (e) {
             var lecturename = Lectures.findOne({_id: this._id}).lecturename;
             var begintime = Lectures.findOne({_id: this._id}).begintime;
             var endtime = Lectures.findOne({_id: this._id}).endtime;
@@ -178,6 +179,6 @@ if (Meteor.isClient) {
             $(".editLecturename").val(lecturename);
 
 
-        }
+        }*/
     });
 }

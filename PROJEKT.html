@@ -47,11 +47,12 @@
 
 <template name="lecture">
         <tr  class="accordion-toggle" data-name="{{name}}" data-id="{{_id}}">
-            <td><a href="#myModal" class="fa fa-pencil fa-fw editButton" data-toggle="modal"></a></td>
+            <!--<td><a href="#myModal" class="fa fa-pencil fa-fw editButton" data-toggle="modal"></a></td>-->
             <td><i class="fa fa-trash removeLecture"></i></td>
             <td style="width: 70px;">{{begintime}}</td>
             <td style="width: 70px;">{{endtime}}</td>
             <td class="clickLecturename" style="width: 200px;">{{lecturename}}</td>
+            <td>{{place}}</td>
             <td><span class="badge">{{countHomeworks}}</span></td>
 
             <td >
@@ -71,49 +72,17 @@
             </tr>
         {{/each}}
 
-        <div id="myModal" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Kas soovid muuta valitud tunni andmeid?</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Kui soovid muuta valitud tunni andmeid, siis palun lisa soovitud andmed siia: </p>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <td>Alguskellaaeg</td>
-                                    <td>Lõpukellaaeg</td>
-                                    <td>Tunni nimi</td>
-                                </tr>
 
-                            </thead>
-                            <tr>
-                                <td><input type="text" class="timeInput beginTime editBegintime" placeholder="--:--"></td>
-                                <td><input type="text" class="timeInput endTime editEndtime" placeholder="--:--"></td>
-                                <td><input type="text" class="lecture lectureNameTest editLecturename"></td>
-
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary saveChanges" >Save changes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     <div id="{{_id}}" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Kas soovid muuta valitud tunni andmeid?</h4>
+                    <h4 class="modal-title">Lisa uus kodutöö:</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Lisa kodutöö:</p>
+
                     <input type="text" placeholder="Lisa kodutöö" class="homework">
                 </div>
                 <div class="modal-footer">
