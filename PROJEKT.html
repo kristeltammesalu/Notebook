@@ -52,20 +52,22 @@
             <td style="width: 70px;">{{begintime}}</td>
             <td style="width: 70px;">{{endtime}}</td>
             <td class="clickLecturename" style="width: 200px;">{{lecturename}}</td>
+            <td><span class="badge">{{countHomeworks}}</span></td>
 
             <td >
                 <div class="btn-group">
 
-                    <a href="#{{_id}}" class="btn btn-default addNewHomeWork" data-toggle="modal">Add</a>
-                    <button type="button" class="btn btn-default" data-toggle="collapse" data-target=".{{_id}}">Right</button>
+                    <a href="#{{_id}}" class="btn btn-default addNewHomeWork fa fa-plus" data-toggle="modal" data-placement="right" title="Lisa uus kodutöö"></a>
+                    <button type="button" class="btn btn-default fa fa-expand" data-toggle="collapse" data-target=".{{_id}}" data-placement="right" title="Vaata kodutöid"></button>
                 </div>
             </td>
         </tr>
 
 
         {{#each homeworks}}
-            <tr>
-                <td colspan="6" class=""><div class="accordian-body collapse {{lectureid}}">{{homework}}</div></td>
+            <tr class="removeHomework">
+                <td class="hiddenRow"><div class="hiddenRow accordian-body collapse {{lectureid}} "><i class="fa fa-trash"></i></div></td>
+                <td colspan="6" class="hiddenRow"><div class="hiddenRow accordian-body collapse {{lectureid}} ">{{homework}}</div></td>
             </tr>
         {{/each}}
 
@@ -88,16 +90,16 @@
 
                             </thead>
                             <tr>
-                                <td><input type="text" class="timeInput beginTime" placeholder="--:--"></td>
-                                <td><input type="text" class="timeInput endTime" placeholder="--:--" ></td>
-                                <td><input type="text" class="lecture lectureNameTest"></td>
+                                <td><input type="text" class="timeInput beginTime editBegintime" placeholder="--:--"></td>
+                                <td><input type="text" class="timeInput endTime editEndtime" placeholder="--:--"></td>
+                                <td><input type="text" class="lecture lectureNameTest editLecturename"></td>
 
                             </tr>
                         </table>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary saveChanges" data-dismiss="modal">Save changes</button>
+                        <button type="button" class="btn btn-primary saveChanges" >Save changes</button>
                     </div>
                 </div>
             </div>

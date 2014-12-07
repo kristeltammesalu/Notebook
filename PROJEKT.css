@@ -229,12 +229,19 @@ table.lecturesTable td {
 
     margin: auto;
     margin-top:150px;
-    background: url("planning123.png");
+    background: url("planning2.png");
 }
 
 .signInHeader {
-    padding-top:20px;
-    padding-left: 40px;
+    padding-top: 50px;
+    padding-left: 500px;
+    /* right: auto; */
+    font-size: 72px;
+    font-family: inherit;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    /* padding: 5px 0; */
+    color: rgb(75, 61, 64);
 }
 
 .login-buttons-with-only-one-button{

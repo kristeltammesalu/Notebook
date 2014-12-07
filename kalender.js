@@ -6,9 +6,6 @@ if (Meteor.isClient) {
 
     Session.set('selectedDate', "");
     Session.set('selectedLecture', "");
-    Session.set('dayView', false);
-    Session.set('conspectus', false);
-    Session.setDefault("homeworkId", null);
 
     Template.CalendarTemplate.rendered = function () {
         $( ".login-button" ).addClass('logout-button');
@@ -17,15 +14,8 @@ if (Meteor.isClient) {
         this.$('.calendar').fullCalendar({
             dayClick: function (date, jsEvent, view) {
 
-                //alert(Template.Dayview.countLectures());
-
-                //Session.set('dayView', true);
-
-                alert(Meteor.userId());
-
                 Session.set('selectedDate', date.format("D.M.YYYY"));
                 Session.set('userID', Meteor.userId());
-                alert(Session.get('selectedDate'));
 
                 Router.go('Dayview');
             }
@@ -53,14 +43,14 @@ if (Meteor.isClient) {
         return Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}});
     };
 
-    Template.lecture.homeworks = function () {
+    Template.Dayview.selectedLectureName = function () {
         var selectedDate = Session.get('selectedDate');
         var userID = Session.get('userID');
 
-        console.log("Getting homeworks for lecture with ID: " + this._id);
-
-        return Homework.find({lectureid: this._id});
+        return Lectures.findOne({_id: this._id}).lecturename;
     };
+
+
 
     Template.Dayview.countLectures = function () {
         var selectedDate = Session.get('selectedDate');
@@ -156,59 +146,38 @@ if (Meteor.isClient) {
             var beginTime = tmpl.find(".beginTime").value;
             var endTime = tmpl.find(".endTime").value;
             var lectureName = tmpl.find(".lectureNameTest").value;
+            var rex = /^([0-1][0-9]|[2][0-3]):([0-5][0-9])$/;
 
 
-            Lectures.update({_id: this._id}, {$set: {begintime: beginTime, endtime: endTime, lecturename: lectureName}},
-                {}, function(err, doc){
-                    //alert("Töötab!");
-                });
+            if ($.trim(beginTime) == '' || $.trim(endTime) == '' || $.trim(lectureName) == '') {
+                alert("Palun sisesta kõik väljad!");
+            } else if (!rex.test(beginTime) || !rex.test(endTime)) {
+                alert("Vale formaat!");
+            } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
+                alert("Algusaeg peab olema väiksem lõpuajast!");
+            } else {
+                //If all conditions completed, then clicking saveButton will add lecture in colletion
+                Lectures.update({_id: this._id}, {$set: {begintime: beginTime, endtime: endTime, lecturename: lectureName}},
+                    {}, function(err, doc){
+                        //alert("Töötab!");
+                    });
+
+                $('#myModal').modal('hide');
+                console.log("Updated lecture with id: " + this._id);
+
+            }
         },
 
         'click .editButton': function (e) {
-            var selectedLecture = Lectures.findOne({_id: this._id});
-            Session.set('selectedLecture', selectedLecture);
+            var lecturename = Lectures.findOne({_id: this._id}).lecturename;
+            var begintime = Lectures.findOne({_id: this._id}).begintime;
+            var endtime = Lectures.findOne({_id: this._id}).endtime;
+
+            $(".editBegintime").val(begintime);
+            $(".editEndtime").val(endtime);
+            $(".editLecturename").val(lecturename);
 
 
         }
-
-
     });
-
-    Template.lecture.events({
-        'click .addHomework': function (e, tmpl) {
-            var selectedCurrent = Session.get('selectedDate');
-            var userID = Session.get('userID');
-
-            var homework = tmpl.find(".homework").value;
-
-            var homeworkID = "";
-
-            Homework.insert({homework: homework, lectureid: this._id}, function(err, doc) {
-                    homeworkID = doc;
-                });
-
-            console.log("Inserted new Homework with ID: " + homeworkID + " for lecture ID: " + this._id);
-
-
-        },
-
-        'click .removeLecture': function (e, tmpl) {
-            var removeLecture = this._id;
-            Lectures.remove({ _id: removeLecture});
-
-        }, 'click .addNewHomeWork': function (e, tmpl) {
-
-            Session.set("homeworkId", this._id);
-            alert(this._id + " ReaID");
-
-            $("#homeworkModal").addClass(this._id);
-
-        }
-    });
-
-    Template.lecture.rendered = function() {
-        console.log("Lecture ID: " + this._id);
-    }
-
-
 }
