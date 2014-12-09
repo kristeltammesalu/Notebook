@@ -67,8 +67,8 @@
 
         {{#each homeworks}}
             <tr class="removeHomework" >
-                <td class="hiddenRow" style="line-height: 30px;" ><div class="hiddenRow accordian-body collapse {{lectureid}} "><i class="fa fa-trash"></i></div></td>
-                <td colspan="15" class="hiddenRow" style="line-height: 30px;"><div class="hiddenRow accordian-body collapse {{lectureid}} ">{{homework}}</div></td>
+                <td class="hiddenRow homeworkRow" style="line-height: 30px;" ><div class="hiddenRow accordian-body collapse {{lectureid}} "><i class="fa fa-trash removeHomework"></i></div></td>
+                <td colspan="15" class="hiddenRow homeworkRow" style="line-height: 30px;"><div class="hiddenRow accordian-body collapse {{lectureid}} ">{{homework}}</div></td>
             </tr>
         {{/each}}
 
@@ -95,9 +95,6 @@
 
 </template>
 
-<template name="testhomework">
-
-</template>
 
 
 

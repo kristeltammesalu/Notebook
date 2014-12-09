@@ -8,9 +8,6 @@ if (Meteor.isClient) {
     Session.set('selectedLecture', "");
 
     Template.CalendarTemplate.rendered = function () {
-        $( ".login-button" ).addClass('logout-button');
-        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
-
         this.$('.calendar').fullCalendar({
             dayClick: function (date, jsEvent, view) {
 
@@ -22,6 +19,10 @@ if (Meteor.isClient) {
         });
     }
 
+    Template.SignInPage.rendered = function () {
+        $( ".login-button" ).removeClass('logout-button');
+        $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
+    }
 
     Template.loginButtons.rendered = function() {
         $( ".login-button" ).addClass('logout-button');
@@ -30,9 +31,7 @@ if (Meteor.isClient) {
     }
 
     Template.Dayview.selectedDay = function () {
-
         return Session.get('selectedDate');
-
     };
 
     //ask all lectures and sort by begintime
@@ -49,8 +48,6 @@ if (Meteor.isClient) {
 
         return Lectures.findOne({_id: this._id}).lecturename;
     };
-
-
 
     Template.Dayview.countLectures = function () {
         var selectedDate = Session.get('selectedDate');
@@ -70,26 +67,10 @@ if (Meteor.isClient) {
         return beginTimeEmpty, endTimeEmpty, lectureNameEmpty;
     };
 
-
-
-    Template.Dayview.rendered = function () {
-        $( ".login-button" ).addClass('logout-button');
-        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
-    }
-
-
-    Template.SignInPage.rendered = function () {
-        $( ".login-button" ).removeClass('logout-button');
-        $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
-    }
-
     Template.Dayview.events({
         'click #saveButton': function (evt, tmpl) {
             var selectedCurrent = Session.get('selectedDate');
             var userID = Session.get('userID');
-
-            //alert(Session.get('selectedDate'));
-
             var beginTime = tmpl.find("#beginTime").value;
             var endTime = tmpl.find("#endTime").value;
             var lectureName = tmpl.find("#lectureName").value;
@@ -98,7 +79,7 @@ if (Meteor.isClient) {
 
 
             if ($.trim(beginTime) == '' || $.trim(endTime) == '' || $.trim(lectureName) == '') {
-                alert("Palun sisesta kõik väljad!");
+                alert("Palun sisesta kõik vajalikud väljad!");
             } else if (!rex.test(beginTime) || !rex.test(endTime)) {
                 alert("Vale formaat!");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
@@ -108,9 +89,7 @@ if (Meteor.isClient) {
             } else {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
                 Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName, place: place});
-
                 Template.Dayview.inputSetEmpty();
-
             }
 
         },

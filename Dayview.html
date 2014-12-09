@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div id="inside">
+        <div class="inside">
             <div class="panel" id="home" style="overflow: hidden;">
                 <div id="katsetus">
                     <div>
@@ -45,10 +45,10 @@
                                         </thead>
 
                                         <tr>
-                                            <td><input type="text" id="beginTime" class="timeInput" placeholder="--:--" style="padding: 2px 3px; margin-bottom:0px;"></td>
-                                            <td><input type="text" id="endTime" class="timeInput" placeholder="--:--" style="padding: 2px 3px; margin-bottom:0px;"></td>
-                                            <td><input type="text" id="lectureName" class="lecture" style="padding: 2px 3px; margin-bottom:0px;"></td>
-                                            <td><input type="text" id="place" class="lecture" style="padding: 2px 3px; margin-bottom:0px; width:50px;"></td>
+                                            <td><input type="text" id="beginTime" class="timeInput" placeholder="--:--"></td>
+                                            <td><input type="text" id="endTime" class="timeInput" placeholder="--:--"></td>
+                                            <td><input type="text" id="lectureName" class="lecture"></td>
+                                            <td><input type="text" id="place" class="lecture"></td>
                                         </tr>
                                     </table>
 
@@ -66,7 +66,7 @@
 
                     <div  class="scroll">
 
-                        <table class="lecturesTable table table-condensed" style="border-collapse:collapse;">
+                        <table class="lecturesTable table table-condensed">
                             {{#each lectures}}
                             {{> lecture}}
                             {{/each}}
@@ -80,6 +80,4 @@
             </div>
         </div>
     </div>
-
-
 </template>

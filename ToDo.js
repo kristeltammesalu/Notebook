@@ -118,6 +118,7 @@ if (Meteor.isClient) {
     Template.listItem.events({
         "click .listItem": function() {
             Session.set("listId", this._id);
+
         },
 
         "click .remove-list": function() {

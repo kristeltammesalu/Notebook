@@ -8,15 +8,13 @@ autopublish
 insecure
 jquery
 rzymek:fullcalendar
-sanjo:jasmine
-velocity:html-reporter
 sacha:spin
 accounts-base
 accounts-ui
 accounts-facebook
-mike:mocha
 mrt:bootstrap3-wysihtml5
 mrt:bootstrap-wysihtml5
 nemo64:bootstrap
 iron:router
-
+sanjo:jasmine
+velocity:html-reporter

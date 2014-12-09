@@ -44,16 +44,12 @@ if (Meteor.isClient) {
             var selectedCurrentLecture = Session.get('selectedLecture');
             var writtenConspectus = document.getElementById("writtenConspectus").value;
             $(writtenConspectus).val();
-            //alert(writtenConspectus);
-            //alert(Template.Dayview.countConspectus());
 
             if(Template.Dayview.countConspectus() == 0) {
                 Conspectus.insert({userid:userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture, conspectus: writtenConspectus});
             } else if (Template.Dayview.countConspectus() == 1) {
-                //alert("elseif " + writtenConspectus);
 
                 var conspectus = Conspectus.findOne({userid: userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture});
-                //alert(conspectus._id);
 
                 Conspectus.update({_id: conspectus._id}, {$set: {conspectus: writtenConspectus}},
                     {}, function(err, doc){
