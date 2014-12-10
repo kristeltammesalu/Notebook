@@ -336,12 +336,12 @@ table.lecturesTable td {
 }
 
 .span8 {
-    width: 200px;
+    width: 284px;
 }
 
 .span3 {
     width: 180px;
-    margin-left: 135px;
+    margin-left: 50px;
 }
 
 .modal-header, .modal-body{
@@ -364,4 +364,14 @@ table.lecturesTable td {
     padding: 2px 3px;
     margin-bottom:0px;
     width:50px;
+}
+.input-xlarge2 {
+    width: 100px;
+}
+
+a.testin {
+    width: 170px;
+}
+.icon{
+    margin-top:6px;
 }
