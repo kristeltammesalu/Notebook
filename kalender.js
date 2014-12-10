@@ -20,7 +20,7 @@ if (Meteor.isClient) {
     }
 
     Template.SignInPage.rendered = function () {
-        $( ".login-button" ).removeClass('logout-button');
+        $( ".login-button" ).removeClass('logout-button').addClass('logInButton');
         $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
     }
 
@@ -117,47 +117,6 @@ if (Meteor.isClient) {
             Session.set('selectedLecture', lectureName);
 
             Router.go('Conspectus');
-        }/*,
-
-        'click .saveChanges': function (e, tmpl) {
-            var selectedCurrent = Session.get('selectedDate');
-            var userID = Session.get('userID');
-
-            var beginTime = tmpl.find(".beginTime").value;
-            var endTime = tmpl.find(".endTime").value;
-            var lectureName = tmpl.find(".lectureNameTest").value;
-            var rex = /^([0-1][0-9]|[2][0-3]):([0-5][0-9])$/;
-
-
-            if ($.trim(beginTime) == '' || $.trim(endTime) == '' || $.trim(lectureName) == '') {
-                alert("Palun sisesta kõik väljad!");
-            } else if (!rex.test(beginTime) || !rex.test(endTime)) {
-                alert("Vale formaat!");
-            } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
-                alert("Algusaeg peab olema väiksem lõpuajast!");
-            } else {
-                //If all conditions completed, then clicking saveButton will add lecture in colletion
-                Lectures.update({_id: this._id}, {$set: {begintime: beginTime, endtime: endTime, lecturename: lectureName}},
-                    {}, function(err, doc){
-                        //alert("Töötab!");
-                    });
-
-                $('#myModal').modal('hide');
-                console.log("Updated lecture with id: " + this._id);
-
-            }
-        },*/
-
-        /*'click .editButton': function (e) {
-            var lecturename = Lectures.findOne({_id: this._id}).lecturename;
-            var begintime = Lectures.findOne({_id: this._id}).begintime;
-            var endtime = Lectures.findOne({_id: this._id}).endtime;
-
-            $(".editBegintime").val(begintime);
-            $(".editEndtime").val(endtime);
-            $(".editLecturename").val(lecturename);
-
-
-        }*/
+        }
     });
 }

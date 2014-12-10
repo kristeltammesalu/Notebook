@@ -53,7 +53,6 @@ if (Meteor.isClient) {
 
                 Conspectus.update({_id: conspectus._id}, {$set: {conspectus: writtenConspectus}},
                     {}, function(err, doc){
-                    //alert("Töötab!");
                 });
             }
 
