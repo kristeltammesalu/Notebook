@@ -366,7 +366,7 @@ table.lecturesTable td {
 }
 
 #todo-input {
-    margin-top: -21px;
+    margin-top: -22px;
 }
 
 #place {
@@ -378,7 +378,7 @@ table.lecturesTable td {
     width: 100px;
 }
 
-a.testin {
+a.listItemLink {
     width: 170px;
 }
 
@@ -393,4 +393,12 @@ td.todo-item-text{
 
 .todosHeader {
     width: 400px;
+}
+
+.listParagraf {
+    margin-top: -20px;
+}
+
+.btn.btn-primary{
+    color:white;
 }

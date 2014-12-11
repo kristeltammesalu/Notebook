@@ -39,7 +39,7 @@
 
 <template name="lists">
     <ul class="lists nav nav-pills nav-stacked">
-        <li><input id="listname-input" class="listname-input input-medium" type="text" placeholder="Add a List"/></li>
+        <li><input id="listname-input" class="listname-input input-medium" type="text" placeholder="Lisa uus list"/></li>
         {{#each lists}}
         {{> listItem}}
         {{/each}}
@@ -49,7 +49,7 @@
 
 <template name="listItem">
     <li class="listItem">
-        <a href="#" class="testin">{{name}} <i class='remove-list icon {{remove_list}} pull-right'></i></a>
+        <a href="#" class="listItemLink">{{name}} <i class='remove-list icon {{remove_list}} pull-right'></i></a>
     </li>
 </template>
 
@@ -60,7 +60,7 @@
 
     {{#if aListExists}}
     <div>
-        <input class="input-xlarge" type="text" name="todo-input" id="todo-input" placeholder="Add a Todo"/>
+        <input class="input-xlarge" type="text" name="todo-input" id="todo-input" placeholder="Lisa uus tegevus"/>
     </div>
     {{#if itemsExist}}
     <table class="table table-striped table-hover table-bordered table-condensed">
@@ -78,7 +78,7 @@
     </table>
     {{/if}}
     {{else}}
-    <p>Please add a list to start.</p>
+    <p class="listParagraf">Palun lisa list, et alustada</p>
     {{/if}}
 
 

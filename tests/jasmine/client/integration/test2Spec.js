@@ -1,6 +1,7 @@
 var selectDate = function (callback) {
     Session.set('userID', "Jta3bFxkvWx2dN4PY");
     Session.set("selectedDate", "1.12.2014");
+    Session.setDefault("listId", "123");
 
     if (callback) {
         Deps.afterFlush(callback);
@@ -11,7 +12,7 @@ var selectDate = function (callback) {
 describe("Selecting Lectures", function () {
     beforeEach(function (done) {
         Meteor.autorun(function (c) {
-            var lecture = Lectures.find({userid: "Jta3bFxkvWx2dN4PY", lecturedate: "2.11.2014"});
+            var lecture = Lectures.find({userid: "Jta3bFxkvWx2dN4PY", lecturedate: "1.12.2014"});
             if (lecture) {
                 c.stop();
                 selectDate(done);
@@ -26,6 +27,9 @@ beforeEach(function () {
     Lectures.insert({userid: "Jta3bFxkvWx2dN4PY", lecturedate: '1.12.2014', begintime: '13.00', endtime: '14:00', lecturename: 'Matemaatika'});
     Lectures.insert({userid: "Jta3bFxkvWx2dN4PY", lecturedate: '1.12.2014', begintime: '12.00', endtime: '13:00', lecturename: 'Muusika'});
     Homework.insert({homework: "tere", lectureid: "zsWNQ9xiX45hTyqPL"});
+    Session.setDefault("listId", "123");
+    Todos.insert({todoText: "TODO", listId: Session.get("listId"), done: false});
+    Lists.insert({ name: "ListiNimi" });
 });
 
 
@@ -84,9 +88,9 @@ describe("ToDoList", function () {
 
     it("should add todo in list", function (evt) {
 
-        /*var countToDos = Todos.find({ listId: Session.get("listId") }).count();
-        $(evt.which === 13 ).keyup(Todos.insert({todoText: "TODO", listId: "123"}));
-        expect(Todos.find(Todos.insert({todoText: "TODO", listId: "123"}).count()).toBe(countToDos +1));*/
+        var countToDos = Todos.find({ listId: Session.get("listId")}).count();
+        $("#todo-input").keyup(Todos.insert({todoText: "TODO", listId: Session.get("listId")}));
+        expect(Todos.find(Todos.insert({todoText: "TODO", listId: Session.get("listId")}).count()).toBe(countToDos +1));
 
     });
 });
@@ -96,7 +100,7 @@ describe("List", function () {
     it("should add new list", function (evt) {
 
         var countList = Lists.find().count();
-        $(evt.which === 13 ).keyup(Lists.insert({ name: "ListiNimi" }));
+        $("#listname-input").keyup(Lists.insert({ name: "ListiNimi" }));
         expect(Lists.find(Lists.insert({ name: "ListiNimi" }).count()).toBe(countList +1));
 
     });
