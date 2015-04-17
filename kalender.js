@@ -24,20 +24,6 @@ if (Meteor.isClient) {
         });
     }
 
-    Template.SignInPage.rendered = function () {
-
-            $( ".login-button" ).removeClass('logout-button').addClass('logInButton');
-            $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
-
-    }
-
-    Template.loginButtons.rendered = function () {
-
-            $( ".login-button" ).addClass('logout-button');
-            $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
-
-    }
-
     Template.Dayview.helpers({
         selectedDay: function() {
             return Session.get('selectedDate');
