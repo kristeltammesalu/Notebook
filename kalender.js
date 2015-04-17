@@ -123,11 +123,11 @@ if(Meteor.isServer) {
 
     Meteor.methods({
         sendSMS: function () {
-            twilio = Twilio('ACe6d5c868a56d37c40ad8b8a6311c26a1', '5f1702c916b94652083966c9accdcb74');
+            twilio = Twilio('ACd223918a8d0a6b20e913aacf1b49f6f2', 'de0fd523fb54f0eec37f32923de62698');
 
             twilio.sendSms({
-                to:'+3725016490',
-                from: '+37259120008',
+                to:'+37259036413',
+                from: '+37259120157',
                 body: "Your lecture have added to your notebook!"
             }, function(err, responseData) {
                 if (!err) {
