@@ -7,6 +7,7 @@ if (Meteor.isClient) {
     Session.set('selectedDate', "");
     Session.set('selectedLecture', "");
 
+
     Template.CalendarTemplate.rendered = function () {
         this.$('.calendar').fullCalendar({
             dayClick: function (date, jsEvent, view) {
@@ -14,58 +15,66 @@ if (Meteor.isClient) {
                 Session.set('selectedDate', date.format("D.M.YYYY"));
                 Session.set('userID', Meteor.userId());
 
+                var filter = Session.get('selectedDate');
+
+
+                //Router.go('Dayview:_id');
                 Router.go('Dayview');
             }
         });
     }
 
     Template.SignInPage.rendered = function () {
-        $( ".login-button" ).removeClass('logout-button').addClass('logInButton');
-        $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
-    }
 
-    Template.loginButtons.rendered = function() {
-        $( ".login-button" ).addClass('logout-button');
-        $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
+            $( ".login-button" ).removeClass('logout-button').addClass('logInButton');
+            $( ".login-buttons-with-only-one-button" ).removeClass('logout-buttons-with-only-one-button');
 
     }
 
-    Template.Dayview.selectedDay = function () {
-        return Session.get('selectedDate');
-    };
+    Template.loginButtons.rendered = function () {
 
-    //ask all lectures and sort by begintime
-    Template.Dayview.lectures = function () {
-        var selectedDate = Session.get('selectedDate');
-        var userID = Session.get('userID');
+            $( ".login-button" ).addClass('logout-button');
+            $( ".login-buttons-with-only-one-button" ).addClass('logout-buttons-with-only-one-button');
 
-        return Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}});
-    };
+    }
 
-    Template.Dayview.selectedLectureName = function () {
-        var selectedDate = Session.get('selectedDate');
-        var userID = Session.get('userID');
+    Template.Dayview.helpers({
+        selectedDay: function() {
+            return Session.get('selectedDate');
+        },
 
-        return Lectures.findOne({_id: this._id}).lecturename;
-    };
+        lectures: function () {
+            var selectedDate = Session.get('selectedDate');
+            var userID = Session.get('userID');
 
-    Template.Dayview.countLectures = function () {
-        var selectedDate = Session.get('selectedDate');
-        var userID = Session.get('userID');
+            return Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}});
+        },
 
-        var countLectures = Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}}).count();
+        selectedLectureName: function () {
+            var selectedDate = Session.get('selectedDate');
+            var userID = Session.get('userID');
 
-        return countLectures;
-    };
-    
-    //Clears inputs' values
-    Template.Dayview.inputSetEmpty = function () {
-        var beginTimeEmpty = $('#beginTime').val('');
-        var endTimeEmpty = $('#endTime').val('');
-        var lectureNameEmpty = $('#lectureName').val('');
+            return Lectures.findOne({_id: this._id}).lecturename;
+        },
 
-        return beginTimeEmpty, endTimeEmpty, lectureNameEmpty;
-    };
+        countLectures: function () {
+            var selectedDate = Session.get('selectedDate');
+            var userID = Session.get('userID');
+
+            var countLectures = Lectures.find({userid: userID, lecturedate: selectedDate}, {sort: {begintime: 1}}).count();
+
+            return countLectures;
+        },
+
+        inputSetEmpty: function () {
+            var beginTimeEmpty = $('#beginTime').val('');
+            var endTimeEmpty = $('#endTime').val('');
+            var lectureNameEmpty = $('#lectureName').val('');
+            var placeEmpty = tmpl.find("#place").val('');
+
+            return beginTimeEmpty, endTimeEmpty, lectureNameEmpty, placeEmpty;
+        }
+    });
 
     Template.Dayview.events({
         'click #saveButton': function (evt, tmpl) {
@@ -81,23 +90,25 @@ if (Meteor.isClient) {
             if ($.trim(beginTime) == '' || $.trim(endTime) == '' || $.trim(lectureName) == '') {
                 alert("Palun sisesta kõik vajalikud väljad!");
             } else if (!rex.test(beginTime) || !rex.test(endTime)) {
-                alert("Vale formaat!");
+                alert("Wrong format!");
             } else if ($.trim($('#beginTime').val()) > $.trim($('#endTime').val())) {
-                alert("Algusaeg peab olema väiksem lõpuajast!");
-            } else if(Template.Dayview.countLectures() > 14){
-               alert("Rohkem tunde ei saa lisada!");
+                alert("Starting time has to be smaller than ending time!");
+            } else if(Meteor.call('countLectures') > 14){
+               alert("Can't add more lectures!");
             } else {
                 //If all conditions completed, then clicking saveButton will add lecture in colletion
+                Meteor.call("sendSMS");
                 Lectures.insert({userid:userID, lecturedate: selectedCurrent, begintime: beginTime, endtime: endTime, lecturename: lectureName, place: place});
-                Template.Dayview.inputSetEmpty();
+                Meteor.call('inputSetEmpty');
+
             }
 
         },
         'click #addNewLecture': function () {
-            Template.Dayview.inputSetEmpty();
+            Meteor.call('inputSetEmpty');
 
             if(Template.Dayview.countLectures() > 14){
-                alert("Rohkem tunde ei saa lisada!");
+                alert("Can't add more lectures!");
             } else {
                 $('#addNewLectureInput').show();
             }
@@ -108,7 +119,7 @@ if (Meteor.isClient) {
         },
         'click #closeButton': function () {
             $('#addNewLectureInput').hide();
-           Template.Dayview.inputSetEmpty();
+            Meteor.call('inputSetEmpty');
                 
         },
 
@@ -118,5 +129,27 @@ if (Meteor.isClient) {
 
             Router.go('Conspectus');
         }
+
     });
+}
+
+if(Meteor.isServer) {
+
+    Meteor.methods({
+        sendSMS: function () {
+            twilio = Twilio('ACe6d5c868a56d37c40ad8b8a6311c26a1', '5f1702c916b94652083966c9accdcb74');
+
+            twilio.sendSms({
+                to:'+3725016490',
+                from: '+37259120008',
+                body: "Your lecture have added to you notebook!"
+            }, function(err, responseData) {
+                if (!err) {
+                    console.log(responseData.from);
+                    console.log(responseData.body);
+                }
+            });
+        }
+    });
+
 }

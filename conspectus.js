@@ -47,6 +47,7 @@ if (Meteor.isClient) {
 
             if(Template.Dayview.countConspectus() == 0) {
                 Conspectus.insert({userid:userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture, conspectus: writtenConspectus});
+                alert("Saved!");
             } else if (Template.Dayview.countConspectus() == 1) {
 
                 var conspectus = Conspectus.findOne({userid: userID, lecturedate: selectedCurrent, lecturename: selectedCurrentLecture});
@@ -54,6 +55,7 @@ if (Meteor.isClient) {
                 Conspectus.update({_id: conspectus._id}, {$set: {conspectus: writtenConspectus}},
                     {}, function(err, doc){
                 });
+                alert("Saved!");
             }
 
         },

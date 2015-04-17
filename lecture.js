@@ -4,20 +4,23 @@
 
 if (Meteor.isClient) {
 
-    Template.lecture.homeworks = function () {
-        var selectedDate = Session.get('selectedDate');
-        var userID = Session.get('userID');
 
-        console.log("Getting homeworks for lecture with ID: " + this._id);
+    Template.lecture.helpers({
+        countHomeworks: function () {
+            console.log("Getting homeworks for lecture with ID: " + this._id);
 
-        return Homework.find({lectureid: this._id});
-    };
+            return Homework.find({lectureid: this._id}).count();
+        },
 
-    Template.lecture.countHomeworks = function () {
-        console.log("Getting homeworks for lecture with ID: " + this._id);
+        homeworks: function () {
+            var selectedDate = Session.get('selectedDate');
+            var userID = Session.get('userID');
 
-        return Homework.find({lectureid: this._id}).count();
-    };
+            console.log("Getting homeworks for lecture with ID: " + this._id);
+
+            return Homework.find({lectureid: this._id});
+        }
+    })
 
     Template.lecture.events({
         'click .addHomework': function (e, tmpl) {
@@ -28,6 +31,10 @@ if (Meteor.isClient) {
                 homeworkID = doc;
             });
 
+
+
+
+            $(".homework").val('');
             console.log("Inserted new Homework with ID: " + homeworkID + " for lecture ID: " + this._id);
         },
 
