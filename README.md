@@ -1,7 +1,7 @@
 # Notebook
 
 This application is a notebook for students. In this application you can add lectures to your selected day, also homeworks and conspectuses for your lecuture. 
-Saving your lecture sends user message, that the lecture is saved. 
+Saving your lecture sends user message, what says, that the lecture is saved. 
 
 First, you have to log in with your Facebook account. 
 
