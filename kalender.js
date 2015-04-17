@@ -142,7 +142,7 @@ if(Meteor.isServer) {
             twilio.sendSms({
                 to:'+3725016490',
                 from: '+37259120008',
-                body: "Your lecture have added to you notebook!"
+                body: "Your lecture have added to your notebook!"
             }, function(err, responseData) {
                 if (!err) {
                     console.log(responseData.from);
