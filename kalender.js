@@ -123,7 +123,7 @@ if(Meteor.isServer) {
 
     Meteor.methods({
         sendSMS: function () {
-            twilio = Twilio('ACd223918a8d0a6b20e913aacf1b49f6f2', 'de0fd523fb54f0eec37f32923de62698');
+            twilio = Twilio('ACd223918a8d0a6b20e913aacf1b49f6f2', '*****');
 
             twilio.sendSms({
                 to:'+37259036413',
